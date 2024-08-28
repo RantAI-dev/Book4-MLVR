@@ -1,25 +1,66 @@
-# If you prefer the allow list template instead of the deny list, see community template:
-# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
-#
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+# Hugo build output
+/public/
+/resources/_gen/
 
-# Test binary, built with `go test -c`
-*.test
+# Temporary files and directories
+*.temp
+*.swp
+*.swo
+*.DS_Store
+*~
 
-# Output of the go coverage tool, specifically when used with LiteIDE
+# Local development files
+/.hugo_build.lock
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies
+node_modules/
+
+# Hugo specific output
+/public/
+/resources/
+
+# Configuration files for IDEs
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+*.bak
+
+# Compiled files
+*.o
 *.out
+*.map
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
+# SASS artifacts
+.sass-cache/
 
-# Go workspace file
-go.work
-go.work.sum
+# Files for deployment
+*.deploy
 
-# env file
+# Hugo server configuration file
+/config.toml
+/config.yaml
+/config.json
+assets/jsconfig.json
+
+# Env files for secrets
 .env
+.env.local
+.env.*.local
+
+# NPM files
+package-lock.json
+yarn.lock
+
+# Temporary Hugo output
+.hugo_build.lock
