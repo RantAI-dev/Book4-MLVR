@@ -3,8 +3,8 @@ weight: 3700
 title: "Chapter 22"
 description: "Machine Learning Operations in Cloud"
 icon: "article"
-date: "2024-10-10T22:52:03.116110+07:00"
-lastmod: "2024-10-10T22:52:03.116110+07:00"
+date: "2024-10-11T20:43:17.322474+07:00"
+lastmod: "2024-10-11T20:43:17.322474+07:00"
 katex: true
 draft: false
 toc: true
@@ -378,26 +378,38 @@ To implement scalability and resource management effectively in a cloud-based ML
 </p>
 
 {{< prism lang="">}}
-# Use the official Rust image as the base image
-FROM rust:1.70 as builder
+# Use the official Rust image as the build stage
+FROM rust:latest as builder
 
-# Set the working directory
-WORKDIR /usr/src/myapp
+# Create a new directory for the application
+WORKDIR /usr/src/rust-simple-page
 
-# Copy the source code into the container
-COPY . .
+# Copy the Cargo.toml and Cargo.lock files
+COPY Cargo.toml Cargo.lock* ./
 
-# Build the Rust application
+# Copy the source code
+COPY src ./src
+
+# Build the application in release mode
 RUN cargo build --release
 
-# Use a smaller base image for the final image
-FROM debian:buster-slim
+# Debugging step to check if the binary is created
+RUN ls -la /usr/src/rust-simple-page/target/release
 
-# Copy the compiled binary from the builder image
-COPY --from=builder /usr/src/myapp/target/release/myapp /usr/local/bin/myapp
+# Use Ubuntu as the final image to have a more recent glibc version
+FROM ubuntu:latest
 
-# Set the command to run the application
-CMD ["myapp"]
+# Install required dependencies
+RUN apt-get update && apt-get install -y libssl-dev ca-certificates && rm -rf /var/lib/apt/lists/*
+
+# Copy the compiled binary from the builder stage
+COPY --from=builder /usr/src/rust-simple-page/target/release/Rust-Simple-Page /usr/local/bin/rust-simple-page
+
+# Expose port 8080
+EXPOSE 8080
+
+# Set the entrypoint
+CMD ["rust-simple-page"]
 {{< /prism >}}
 <p style="text-align: justify;">
 Once the Rust application is containerized, it can be deployed to a Kubernetes cluster. The following YAML configuration can be used to define a Kubernetes Deployment, which specifies the number of replicas to run and enables auto-scaling:
