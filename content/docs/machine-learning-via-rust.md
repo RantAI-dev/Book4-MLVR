@@ -1,7 +1,7 @@
 ---
 weight: 100
 title: "Machine Learning via Rust"
-description: ""
+description: "Machine Learning with Rust, blending performance, safety, and cutting-edge algorithms to solve real-world problems."
 icon: "menu_book"
 date: "2024-08-28T22:25:12+07:00"
 lastmod: "2024-08-28T22:25:12+07:00"

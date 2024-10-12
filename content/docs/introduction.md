@@ -2,16 +2,19 @@
 weight: 500
 title: "Foreword"
 description: "Learn Faster and Smarter"
-icon: "article"
+icon: "send"
 date: "2024-10-10T22:52:03.286294+07:00"
 lastmod: "2024-10-10T22:52:03.286294+07:00"
 katex: true
 draft: false
 toc: true
 ---
+
 {{% alert icon="💡" context="info" %}}
 <strong>"<em>What I cannot create, I do not understand.</em>" — Richard Feynman</strong>
 {{% /alert %}}
+
+{{% alert icon="📖" context="success" %}}
 
 <p style="text-align: justify;">
 This book, <em>Machine Learning via Rust (MLVR)</em>, is a product of the teaching efforts at the Data Science Center (DSC) of the University of Indonesia. Our goal is to equip students with the best tools available for both the training and deployment of machine learning models, ensuring they are prepared for the challenges of the evolving technological landscape.
@@ -33,11 +36,18 @@ The RantAI team has played a crucial role in transforming the teaching materials
 I encourage you to explore and exploit this book with an open mind. My hope is that you will find joy in your journey to becoming a scientist and engineer, equipped with the knowledge and tools necessary to excel in this exciting field.
 </p>
 
-<p style="text-align: justify;">
-<strong>Prof. Alhadi Boestamam, Ph.D.</strong>
-</p>
 
-<p style="text-align: justify;">
-\
+{{% /alert %}}
+<center>
+
+Jakarta, August 17th, 2024
+
+&nbsp;
+
+&nbsp;
+
+<strong>Prof. Alhadi Boestamam, Ph.D.</strong>
+
 <strong>Data Science Center - University of Indonesia</strong>
-</p>
+
+</center>

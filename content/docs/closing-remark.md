@@ -1,17 +1,18 @@
 ---
 weight: 4500
 title: "Closing Remark"
-description: "We dont need more to get more!"
-icon: "article"
+description: "We don't need more to get more!"
+icon: "done"
 date: "2024-10-10T22:52:03.285294+07:00"
 lastmod: "2024-10-10T22:52:03.285294+07:00"
 katex: true
 draft: false
 toc: true
 ---
-{{% alert icon="💡" context="info" %}}
-<strong>"<em>The important thing is not to stop questioning. Curiosity has its own reason for existence.</em>" — Albert Einstein</strong>
-{{% /alert %}}
+
+{{% alert icon="💡" context="info" %}}<strong>"<em>The important thing is not to stop questioning. Curiosity has its own reason for existence.</em>" — Albert Einstein</strong>{{% /alert %}}
+
+{{% alert icon="🚪" context="primary" %}}
 
 <p style="text-align: justify;">
 In the dynamic and rapidly evolving field of machine learning, the tools and methodologies we choose can often define the line between good and exceptional performance. While proficiency in Python has long been a cornerstone of machine learning practice, it is the ability to harness the power of high-performance computing, hardware adaptation, and innovative programming languages like Rust that truly distinguishes top-tier machine learning engineers. Leading technology companies increasingly seek individuals who can push the boundaries of what's possible, leveraging advanced tools to solve complex problems and drive cutting-edge innovation.
@@ -41,10 +42,16 @@ As you embark on your journey through this first edition of <em>MLVR</em>, take 
 We hope this book inspires and empowers you to become a great machine learning engineer. Embrace the challenges and opportunities that come with mastering machine learning via Rust, and let your enhanced skills drive you towards exceptional achievements in the world of technology. Good luck on your journey, and may your pursuit of excellence in Rust and machine learning lead to remarkable success.
 </p>
 
-<p style="text-align: justify;">
-Jakarta, August 17, 2024
-</p>
+<center>
 
-<p style="text-align: justify;">
+Jakarta, August 17, 2024
+
+&nbsp;
+
+&nbsp;
+
 <strong>The Founding Team of RantAI</strong>
-</p>
+
+</center>
+
+{{% /alert %}}
