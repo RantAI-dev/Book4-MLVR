@@ -1146,21 +1146,67 @@ Each prompt encourages you to think critically about the balance between privacy
 These exercises are designed to be challenging and in-depth, requiring you to apply both theoretical knowledge and practical skills in Rust.
 </p>
 
-#### **Exercise 24.1:** Implementing Differential Privacy in Federated Learning Using Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement differential privacy in a Federated Learning system using Rust. Apply this technique to a real-world dataset and evaluate the trade-offs between privacy protection and model accuracy.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different levels of privacy and analyze their impact on model performance, balancing the need for privacy with the utility of the model.</p>
-#### **Exercise 24.2:** Developing Communication-Efficient Federated Learning in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement communication-efficient techniques such as model compression and sparsification in a Federated Learning system using Rust. Evaluate the impact of these techniques on communication overhead and model accuracy.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different communication strategies and analyze the trade-offs between reducing communication cost and maintaining model performance.</p>
-#### **Exercise 24.3:** Implementing Security Measures for Federated Learning in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement security measures in a Federated Learning system using Rust, focusing on protecting against poisoning attacks, inference attacks, and model inversion attacks. Apply these measures to a real-world scenario and evaluate their effectiveness.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different security techniques and analyze their impact on model robustness and performance.</p>
-#### **Exercise 24.4:** Deploying Federated Learning on Edge Devices Using Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a Federated Learning system in Rust designed for deployment on edge devices with limited resources. Optimize the system for low-power consumption and efficient communication.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different model architectures and optimization techniques to balance performance and resource usage on edge devices.</p>
-#### **Exercise 24.5:** Integrating Federated Learning with Blockchain
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a Federated Learning system in Rust integrated with blockchain technology to enhance security and transparency. Apply this system to a distributed dataset and evaluate its performance and security.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different blockchain configurations and analyze their impact on the scalability and security of the Federated Learning system.</p>
-<p style="text-align: justify;">
-By completing these tasks, you will gain hands-on experience with Federated Learning and Privacy-Preserving ML, deepening your understanding of their implementation and application in real-world environments.
-</p>
+---
+
+<section class="mt-5">
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 24.1: Implementing Differential Privacy in Federated Learning Using Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement differential privacy in a Federated Learning system using Rust. Apply this technique to a real-world dataset and evaluate the trade-offs between privacy protection and model accuracy.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different levels of privacy and analyze their impact on model performance, balancing the need for privacy with the utility of the model.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 24.2: Developing Communication-Efficient Federated Learning in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement communication-efficient techniques such as model compression and sparsification in a Federated Learning system using Rust. Evaluate the impact of these techniques on communication overhead and model accuracy.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different communication strategies and analyze the trade-offs between reducing communication cost and maintaining model performance.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 24.3: Implementing Security Measures for Federated Learning in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement security measures in a Federated Learning system using Rust, focusing on protecting against poisoning attacks, inference attacks, and model inversion attacks. Apply these measures to a real-world scenario and evaluate their effectiveness.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different security techniques and analyze their impact on model robustness and performance.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 24.4: Deploying Federated Learning on Edge Devices Using Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a Federated Learning system in Rust designed for deployment on edge devices with limited resources. Optimize the system for low-power consumption and efficient communication.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different model architectures and optimization techniques to balance performance and resource usage on edge devices.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 24.5: Integrating Federated Learning with Blockchain
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a Federated Learning system in Rust integrated with blockchain technology to enhance security and transparency. Apply this system to a distributed dataset and evaluate its performance and security.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different blockchain configurations and analyze their impact on the scalability and security of the Federated Learning system.</p>
+        </div>
+    </div>
+    <p class="text-justify">
+        By completing these tasks, you will gain hands-on experience with Federated Learning and Privacy-Preserving ML, deepening your understanding of their implementation and application in real-world environments.
+    </p>
+</section>
+
+---

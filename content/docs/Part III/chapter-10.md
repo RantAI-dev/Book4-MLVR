@@ -1247,21 +1247,67 @@ Each prompt offers an opportunity to refine your skills and expand your knowledg
 These exercises are designed to be challenging and in-depth, requiring you to apply both theoretical knowledge and practical skills in Rust.
 </p>
 
-#### **Exercise 10.1:** Implementing Principal Component Analysis (PCA) in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement the PCA algorithm from scratch in Rust, focusing on the computation of eigenvectors and eigenvalues to transform data into principal components. Apply your implementation to a high-dimensional dataset, such as image or gene expression data, and visualize the reduced dimensions.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different numbers of principal components to balance variance retention and dimensionality reduction. Analyze how the choice of components affects the interpretation and performance of the dataset.</p>
-#### **Exercise 10.2:** Developing Singular Value Decomposition (SVD) for Dimensionality Reduction
-- <p style="text-align: justify;"><strong>Task</strong>: Implement the SVD algorithm in Rust, focusing on the decomposition of a matrix into its singular values and vectors. Apply SVD to tasks like image compression or noise reduction, and compare the results with PCA.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Ensure that your implementation handles large matrices efficiently, particularly when working with high-dimensional datasets. Experiment with different applications of SVD, such as text processing or collaborative filtering, to explore its versatility.</p>
-#### **Exercise 10.3:** Implementing t-SNE for Non-Linear Dimensionality Reduction in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement the t-SNE algorithm in Rust, focusing on preserving local structure in high-dimensional data during the embedding process. Apply t-SNE to a complex dataset, such as handwritten digits or natural language data, and visualize the results.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different perplexity and learning rate settings to optimize the quality of the embedding. Analyze the interpretability of the t-SNE visualization and the insights it provides into the structure of the dataset.</p>
-#### **Exercise 10.4:** Building and Training Autoencoders for Dimensionality Reduction
-- <p style="text-align: justify;"><strong>Task</strong>: Implement an autoencoder neural network in Rust, focusing on the architecture of the encoder and decoder. Use the autoencoder to reduce the dimensionality of a dataset, such as images or time-series data, and compare its performance with PCA.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different architectures, such as deep or convolutional autoencoders, to enhance the dimensionality reduction capabilities. Analyze the reconstruction error and how it correlates with the quality of the dimensionality reduction.</p>
-#### **Exercise 10.5:** Evaluating Dimensionality Reduction Techniques Using Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement evaluation metrics such as explained variance, reconstruction error, and classification performance in Rust. Use these metrics to evaluate and compare the effectiveness of different dimensionality reduction techniques (e.g., PCA, t-SNE, autoencoders) on a real-world dataset.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Ensure that your evaluation pipeline is comprehensive and can handle various types of datasets. Visualize the results of the evaluation to gain insights into the strengths and weaknesses of each technique, and make recommendations for their application in different contexts.</p>
-<p style="text-align: justify;">
-Embrace the difficulty of these exercises as an opportunity to refine your skills and prepare yourself for tackling real-world challenges in data analysis and machine learning via Rust.
-</p>
+---
+
+<section class="mt-5">
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 10.1: Implementing Principal Component Analysis (PCA) in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement the PCA algorithm from scratch in Rust, focusing on the computation of eigenvectors and eigenvalues to transform data into principal components. Apply your implementation to a high-dimensional dataset, such as image or gene expression data, and visualize the reduced dimensions.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different numbers of principal components to balance variance retention and dimensionality reduction. Analyze how the choice of components affects the interpretation and performance of the dataset.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 10.2: Developing Singular Value Decomposition (SVD) for Dimensionality Reduction
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement the SVD algorithm in Rust, focusing on the decomposition of a matrix into its singular values and vectors. Apply SVD to tasks like image compression or noise reduction, and compare the results with PCA.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Ensure that your implementation handles large matrices efficiently, particularly when working with high-dimensional datasets. Experiment with different applications of SVD, such as text processing or collaborative filtering, to explore its versatility.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 10.3: Implementing t-SNE for Non-Linear Dimensionality Reduction in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement the t-SNE algorithm in Rust, focusing on preserving local structure in high-dimensional data during the embedding process. Apply t-SNE to a complex dataset, such as handwritten digits or natural language data, and visualize the results.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different perplexity and learning rate settings to optimize the quality of the embedding. Analyze the interpretability of the t-SNE visualization and the insights it provides into the structure of the dataset.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 10.4: Building and Training Autoencoders for Dimensionality Reduction
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement an autoencoder neural network in Rust, focusing on the architecture of the encoder and decoder. Use the autoencoder to reduce the dimensionality of a dataset, such as images or time-series data, and compare its performance with PCA.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different architectures, such as deep or convolutional autoencoders, to enhance the dimensionality reduction capabilities. Analyze the reconstruction error and how it correlates with the quality of the dimensionality reduction.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 10.5: Evaluating Dimensionality Reduction Techniques Using Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement evaluation metrics such as explained variance, reconstruction error, and classification performance in Rust. Use these metrics to evaluate and compare the effectiveness of different dimensionality reduction techniques (e.g., PCA, t-SNE, autoencoders) on a real-world dataset.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Ensure that your evaluation pipeline is comprehensive and can handle various types of datasets. Visualize the results of the evaluation to gain insights into the strengths and weaknesses of each technique, and make recommendations for their application in different contexts.</p>
+        </div>
+    </div>
+    <p class="text-justify">
+        Embrace the difficulty of these exercises as an opportunity to refine your skills and prepare yourself for tackling real-world challenges in data analysis and machine learning via Rust.
+    </p>
+</section>
+
+---

@@ -1791,21 +1791,67 @@ By engaging with these questions, you will explore both foundational and advance
 By completing these tasks, you will gain hands-on experience with Reinforcement Learning, deepening your understanding of its implementation and application in machine learning.
 </p>
 
-#### **Exercise 14. 1:** Implementing a Markov Decision Process (MDP) in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement an MDP in Rust, focusing on defining the states, actions, transition probabilities, and rewards. Apply the MDP to a decision-making scenario, such as navigating a maze or optimizing a simple resource management task.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different policies and analyze how changes in the policy affect the agent's performance and cumulative reward.</p>
-#### **Exercise 14.2:** Developing a Q-Learning Algorithm in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement the Q-learning algorithm in Rust, focusing on updating value functions based on temporal-difference learning. Apply Q-learning to a control task, such as balancing a cart-pole or controlling a simulated robot.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different exploration strategies and learning rates, and evaluate their impact on the convergence speed and final performance of the algorithm.</p>
-#### **Exercise 14.3:** Implementing a Deep Q-Network (DQN) in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a DQN in Rust, focusing on using a neural network to approximate the Q-value function. Apply DQN to a complex environment, such as playing a video game or solving a continuous control task.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Address challenges like training stability by experimenting with techniques like experience replay and target networks. Analyze the performance of the DQN in terms of cumulative reward and policy robustness.</p>
-#### **Exercise 14.4:** Developing a Policy Gradient Method in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a policy gradient method in Rust, focusing on directly optimizing the policy by maximizing expected rewards. Apply the policy gradient algorithm to a continuous control task, such as robotic arm manipulation or drone flight control.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different architectures and hyperparameters for the policy network, and analyze how these changes affect the learning process and final performance.</p>
-#### **Exercise 14.5:** Evaluating RL Algorithms Using Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement an evaluation framework in Rust to assess the performance of various RL algorithms, such as Q-learning, SARSA, DQN, and policy gradients. Use the framework to compare the algorithms on benchmark tasks, such as grid-world navigation or simulated robotics.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Analyze the trade-offs between sample efficiency, convergence speed, and final performance for each algorithm. Experiment with hyperparameter tuning to optimize the performance of each algorithm.</p>
-<p style="text-align: justify;">
-Embrace the difficulty of these exercises as an opportunity to refine your skills and prepare yourself for tackling complex real-world problems using Rust.
-</p>
+---
+
+<section class="mt-5">
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 14.1: Implementing a Markov Decision Process (MDP) in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement an MDP in Rust, focusing on defining the states, actions, transition probabilities, and rewards. Apply the MDP to a decision-making scenario, such as navigating a maze or optimizing a simple resource management task.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different policies and analyze how changes in the policy affect the agent's performance and cumulative reward.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 14.2: Developing a Q-Learning Algorithm in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement the Q-learning algorithm in Rust, focusing on updating value functions based on temporal-difference learning. Apply Q-learning to a control task, such as balancing a cart-pole or controlling a simulated robot.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different exploration strategies and learning rates, and evaluate their impact on the convergence speed and final performance of the algorithm.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 14.3: Implementing a Deep Q-Network (DQN) in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a DQN in Rust, focusing on using a neural network to approximate the Q-value function. Apply DQN to a complex environment, such as playing a video game or solving a continuous control task.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Address challenges like training stability by experimenting with techniques like experience replay and target networks. Analyze the performance of the DQN in terms of cumulative reward and policy robustness.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 14.4: Developing a Policy Gradient Method in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a policy gradient method in Rust, focusing on directly optimizing the policy by maximizing expected rewards. Apply the policy gradient algorithm to a continuous control task, such as robotic arm manipulation or drone flight control.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different architectures and hyperparameters for the policy network, and analyze how these changes affect the learning process and final performance.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 14.5: Evaluating RL Algorithms Using Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement an evaluation framework in Rust to assess the performance of various RL algorithms, such as Q-learning, SARSA, DQN, and policy gradients. Use the framework to compare the algorithms on benchmark tasks, such as grid-world navigation or simulated robotics.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Analyze the trade-offs between sample efficiency, convergence speed, and final performance for each algorithm. Experiment with hyperparameter tuning to optimize the performance of each algorithm.</p>
+        </div>
+    </div>
+    <p class="text-justify">
+        Embrace the difficulty of these exercises as an opportunity to refine your skills and prepare yourself for tackling complex real-world problems using Rust.
+    </p>
+</section>
+
+---

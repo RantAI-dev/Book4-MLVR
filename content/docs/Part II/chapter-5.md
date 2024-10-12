@@ -1402,55 +1402,57 @@ By engaging with these prompts, you will deepen your knowledge of linear models,
 </p>
 
 ## 5.7.2. Hands-On Practices
-<p style="text-align: justify;">
-These exercises are designed to be challenging and comprehensive, requiring the application of theoretical knowledge and practical skills in Rust.
-</p>
+<p style="text-align: justify;">These exercises are designed to be challenging and comprehensive, requiring the application of theoretical knowledge and practical skills in Rust.</p>
 
-#### **Exercise 5.1:** Implementing Linear Regression from Scratch in Rust
-<p style="text-align: justify;">
-<em>Task</em>: Implement a linear regression algorithm from scratch in Rust, utilizing both the normal equation and gradient descent methods. Apply your implementation to a real-world regression problem, such as predicting housing prices, and evaluate its performance using MSE and R2R^2R2 metrics.
-</p>
+---
 
-<p style="text-align: justify;">
-<em>Challenges</em>: Ensure your implementation can handle large datasets efficiently. Compare the computational efficiency and scalability of the normal equation versus gradient descent. Experiment with different learning rates and convergence criteria for gradient descent, and analyze their impact on model training.
-</p>
+<section class="mt-5">
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">Exercise 5.1: Implementing Linear Regression from Scratch in Rust</div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify"><em>Task</em>: Implement a linear regression algorithm from scratch in Rust, utilizing both the normal equation and gradient descent methods. Apply your implementation to a real-world regression problem, such as predicting housing prices, and evaluate its performance using MSE and R2 metrics.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Ensure your implementation can handle large datasets efficiently. Compare the computational efficiency and scalability of the normal equation versus gradient descent. Experiment with different learning rates and convergence criteria for gradient descent, and analyze their impact on model training.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">Exercise 5.2: Implementing Regularized Linear Regression Models in Rust</div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify"><em>Task</em>: Extend your linear regression implementation to include L1 (Lasso) and L2 (Ridge) regularization. Apply these regularized models to a dataset with multicollinearity among features, and evaluate their performance compared to the ordinary least squares model.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Implement efficient algorithms for Lasso and Ridge regression, such as coordinate descent for Lasso. Analyze how regularization affects the magnitude of the coefficients and the model's ability to generalize to unseen data. Use cross-validation to select optimal regularization parameters.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">Exercise 5.3: Developing Logistic Regression and Evaluating Classification Metrics in Rust</div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify"><em>Task</em>: Implement logistic regression from scratch in Rust for binary classification. Apply your model to a dataset such as the Breast Cancer Wisconsin dataset. Evaluate the model's performance using accuracy, precision, recall, F1 score, and ROC-AUC metrics.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Implement gradient descent optimization for logistic regression. Handle potential issues with convergence and numerical stability. Explore the impact of different thresholds on classification performance and utilize ROC curves to select an optimal threshold.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">Exercise 5.4: Implementing Multinomial Logistic Regression in Rust</div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify"><em>Task</em>: Extend your logistic regression implementation to handle multiclass classification using the softmax function. Apply your model to the Iris dataset and evaluate its performance using multiclass classification metrics such as macro-averaged F1 score.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Ensure your implementation efficiently computes the gradients for all classes. Address potential numerical instability in the softmax function. Analyze misclassifications using a confusion matrix and explore techniques to improve model accuracy, such as feature scaling or regularization.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">Exercise 5.5: Feature Selection and Multicollinearity Analysis in Linear Models with Rust</div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify"><em>Task</em>: Implement feature selection techniques, such as forward selection or regularization paths, in Rust to identify relevant features for a linear regression model. Apply your method to a dataset with a large number of features, and analyze how feature selection improves model performance.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Implement methods to detect and quantify multicollinearity, such as calculating the variance inflation factor (VIF). Use your findings to inform feature selection and improve the stability of the model coefficients. Evaluate the impact of feature selection on model interpretability and predictive power.</p>
+        </div>
+    </div>
+    <p class="text-justify">Embrace the complexity of these exercises as an opportunity to refine your skills and prepare yourself for addressing real-world challenges in machine learning using Rust.</p>
+</section>
 
-#### **Exercise 5.2:** Implementing Regularized Linear Regression Models in Rust
-<p style="text-align: justify;">
-<em>Task</em>: Extend your linear regression implementation to include L1 (Lasso) and L2 (Ridge) regularization. Apply these regularized models to a dataset with multicollinearity among features, and evaluate their performance compared to the ordinary least squares model.
-</p>
-
-<p style="text-align: justify;">
-<em>Challenges</em>: Implement efficient algorithms for Lasso and Ridge regression, such as coordinate descent for Lasso. Analyze how regularization affects the magnitude of the coefficients and the model's ability to generalize to unseen data. Use cross-validation to select optimal regularization parameters.
-</p>
-
-#### **Exercise 5.3:** Developing Logistic Regression and Evaluating Classification Metrics in Rust
-<p style="text-align: justify;">
-<em>Task</em>: Implement logistic regression from scratch in Rust for binary classification. Apply your model to a dataset such as the Breast Cancer Wisconsin dataset. Evaluate the model's performance using accuracy, precision, recall, F1 score, and ROC-AUC metrics.
-</p>
-
-<p style="text-align: justify;">
-<em>Challenges</em>: Implement gradient descent optimization for logistic regression. Handle potential issues with convergence and numerical stability. Explore the impact of different thresholds on classification performance and utilize ROC curves to select an optimal threshold.
-</p>
-
-#### **Exercise 5.4:** Implementing Multinomial Logistic Regression in Rust
-<p style="text-align: justify;">
-<em>Task</em>: Extend your logistic regression implementation to handle multiclass classification using the softmax function. Apply your model to the Iris dataset and evaluate its performance using multiclass classification metrics such as macro-averaged F1 score.
-</p>
-
-<p style="text-align: justify;">
-<em>Challenges</em>: Ensure your implementation efficiently computes the gradients for all classes. Address potential numerical instability in the softmax function. Analyze misclassifications using a confusion matrix and explore techniques to improve model accuracy, such as feature scaling or regularization.
-</p>
-
-#### **Exercise 5.5:** Feature Selection and Multicollinearity Analysis in Linear Models with Rust
-<p style="text-align: justify;">
-<em>Task</em>: Implement feature selection techniques, such as forward selection or regularization paths, in Rust to identify relevant features for a linear regression model. Apply your method to a dataset with a large number of features, and analyze how feature selection improves model performance.
-</p>
-
-<p style="text-align: justify;">
-<em>Challenges</em>: Implement methods to detect and quantify multicollinearity, such as calculating the variance inflation factor (VIF). Use your findings to inform feature selection and improve the stability of the model coefficients. Evaluate the impact of feature selection on model interpretability and predictive power.
-</p>
-
-<p style="text-align: justify;">
-Embrace the complexity of these exercises as an opportunity to refine your skills and prepare yourself for addressing real-world challenges in machine learning using Rust.
-</p>
+---

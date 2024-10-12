@@ -1079,21 +1079,67 @@ Embrace these challenges as opportunities to deepen your expertise, refine your 
 By completing these tasks, you will gain hands-on experience with Gradient Boosting Models, deepening your understanding of their implementation and application in machine learning.
 </p>
 
-#### **Exercise 16.1:** Implementing a Basic Gradient Boosting Model in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a basic Gradient Boosting model in Rust, focusing on the iterative process of building models and updating predictions based on the gradient of the loss function. Apply the model to a simple classification task, such as predicting binary outcomes.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different loss functions (e.g., log-loss, mean squared error) and learning rates, and analyze their impact on model performance and convergence.</p>
-#### **Exercise 16.2:** Developing Decision Trees as Base Learners in Gradient Boosting
-- <p style="text-align: justify;"><strong>Task</strong>: Implement decision trees as base learners in Rust, focusing on tree construction, pruning, and depth control. Use these trees in a Gradient Boosting model for a regression task, such as predicting housing prices.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different tree depths and regularization techniques, and evaluate how these parameters affect the model’s ability to generalize to unseen data.</p>
-#### **Exercise 16.3:** Implementing Regularization Techniques in Gradient Boosting
-- <p style="text-align: justify;"><strong>Task</strong>: Implement regularization techniques in Rust, such as shrinkage (learning rate), subsampling, and tree constraints, to prevent overfitting in a Gradient Boosting model. Apply these techniques to a real-world dataset, such as credit scoring.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Analyze the trade-offs between different regularization strategies and their impact on model robustness and accuracy. Experiment with combining multiple regularization techniques to optimize performance.</p>
-#### **Exercise 16.4:** Building an XGBoost Model in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement the XGBoost variant of Gradient Boosting in Rust, focusing on its enhancements, such as regularization, missing value handling, and parallel computation. Apply XGBoost to a large-scale classification task, such as image recognition or text classification.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with hyperparameter tuning, such as adjusting the learning rate, tree depth, and number of boosting rounds, to optimize the model’s performance on the task.</p>
-#### **Exercise 16.5:** Implementing Hyperparameter Tuning for Gradient Boosting Models
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a hyperparameter tuning framework in Rust, using grid search or random search to optimize key parameters of a Gradient Boosting model, such as learning rate, tree depth, and number of trees. Apply the framework to a real-world dataset, such as customer churn prediction.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different search strategies and evaluate their effectiveness in finding the optimal hyperparameters. Analyze the impact of hyperparameter tuning on model performance, training time, and generalization.</p>
-<p style="text-align: justify;">
-Embrace the difficulty of these exercises as an opportunity to refine your skills and prepare yourself for tackling complex real-world problems using Rust.
-</p>
+---
+
+<section class="mt-5">
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 16.1: Implementing a Basic Gradient Boosting Model in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a basic Gradient Boosting model in Rust, focusing on the iterative process of building models and updating predictions based on the gradient of the loss function. Apply the model to a simple classification task, such as predicting binary outcomes.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different loss functions (e.g., log-loss, mean squared error) and learning rates, and analyze their impact on model performance and convergence.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 16.2: Developing Decision Trees as Base Learners in Gradient Boosting
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement decision trees as base learners in Rust, focusing on tree construction, pruning, and depth control. Use these trees in a Gradient Boosting model for a regression task, such as predicting housing prices.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different tree depths and regularization techniques, and evaluate how these parameters affect the model’s ability to generalize to unseen data.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 16.3: Implementing Regularization Techniques in Gradient Boosting
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement regularization techniques in Rust, such as shrinkage (learning rate), subsampling, and tree constraints, to prevent overfitting in a Gradient Boosting model. Apply these techniques to a real-world dataset, such as credit scoring.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Analyze the trade-offs between different regularization strategies and their impact on model robustness and accuracy. Experiment with combining multiple regularization techniques to optimize performance.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 16.4: Building an XGBoost Model in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement the XGBoost variant of Gradient Boosting in Rust, focusing on its enhancements, such as regularization, missing value handling, and parallel computation. Apply XGBoost to a large-scale classification task, such as image recognition or text classification.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with hyperparameter tuning, such as adjusting the learning rate, tree depth, and number of boosting rounds, to optimize the model’s performance on the task.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 16.5: Implementing Hyperparameter Tuning for Gradient Boosting Models
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a hyperparameter tuning framework in Rust, using grid search or random search to optimize key parameters of a Gradient Boosting model, such as learning rate, tree depth, and number of trees. Apply the framework to a real-world dataset, such as customer churn prediction.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different search strategies and evaluate their effectiveness in finding the optimal hyperparameters. Analyze the impact of hyperparameter tuning on model performance, training time, and generalization.</p>
+        </div>
+    </div>
+    <p class="text-justify">
+        Embrace the difficulty of these exercises as an opportunity to refine your skills and prepare yourself for tackling complex real-world problems using Rust.
+    </p>
+</section>
+
+---

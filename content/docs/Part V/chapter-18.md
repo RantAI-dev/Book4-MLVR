@@ -1185,21 +1185,67 @@ Each prompt encourages you to think critically about the data preprocessing step
 These exercises are designed to be challenging and in-depth, requiring you to apply both theoretical knowledge and practical skills in Rust.
 </p>
 
-#### **Exercise 18.1:** Implementing Data Cleaning Techniques in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement data cleaning techniques in Rust, focusing on identifying and handling missing values, outliers, and noise. Apply these techniques to a dataset with inconsistencies, such as a real-world dataset with missing entries and extreme values.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different imputation methods, outlier detection techniques, and noise reduction strategies, and analyze their impact on model performance.</p>
-#### **Exercise 18.2:** Developing Feature Engineering Pipelines in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a feature engineering pipeline in Rust, focusing on creating new features, such as interaction terms and polynomial features, and selecting the most relevant features using methods like RFE or LASSO. Apply the pipeline to a complex regression or classification task.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different feature engineering strategies, such as generating higher-order terms or using domain-specific knowledge, and evaluate their impact on model accuracy and interpretability.</p>
-#### **Exercise 18.3:** Implementing Dimensionality Reduction Techniques in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement dimensionality reduction techniques in Rust, such as PCA, LDA, or t-SNE, to reduce the feature space of a high-dimensional dataset. Apply these techniques to a dataset with hundreds of features, such as gene expression data or image data.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different dimensionality reduction methods, and analyze how they affect the variance retained in the data and the performance of the machine learning model.</p>
-#### **Exercise 18.4:** Handling Imbalanced Data in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement techniques to handle imbalanced data in Rust, focusing on methods like SMOTE, undersampling, and cost-sensitive learning. Apply these techniques to a dataset with a significant class imbalance, such as fraud detection or rare disease diagnosis.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different resampling strategies and evaluate their impact on model sensitivity, specificity, and overall accuracy.</p>
-#### **Exercise 18.5:** Developing Data Augmentation Techniques in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement data augmentation techniques in Rust, focusing on domains like computer vision or NLP, where increasing the diversity of training data can significantly improve model robustness. Apply these techniques to an image or text dataset.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different augmentation strategies, such as image rotations, text paraphrasing, or synthetic data generation, and evaluate their impact on model generalization and performance.</p>
-<p style="text-align: justify;">
-By completing these tasks, you will gain hands-on experience with Data Processing and Feature Engineering, deepening your understanding of their implementation and application in machine learning.
-</p>
+---
+
+<section class="mt-5">
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 18.1: Implementing Data Cleaning Techniques in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement data cleaning techniques in Rust, focusing on identifying and handling missing values, outliers, and noise. Apply these techniques to a dataset with inconsistencies, such as a real-world dataset with missing entries and extreme values.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different imputation methods, outlier detection techniques, and noise reduction strategies, and analyze their impact on model performance.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 18.2: Developing Feature Engineering Pipelines in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a feature engineering pipeline in Rust, focusing on creating new features, such as interaction terms and polynomial features, and selecting the most relevant features using methods like RFE or LASSO. Apply the pipeline to a complex regression or classification task.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different feature engineering strategies, such as generating higher-order terms or using domain-specific knowledge, and evaluate their impact on model accuracy and interpretability.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 18.3: Implementing Dimensionality Reduction Techniques in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement dimensionality reduction techniques in Rust, such as PCA, LDA, or t-SNE, to reduce the feature space of a high-dimensional dataset. Apply these techniques to a dataset with hundreds of features, such as gene expression data or image data.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different dimensionality reduction methods, and analyze how they affect the variance retained in the data and the performance of the machine learning model.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 18.4: Handling Imbalanced Data in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement techniques to handle imbalanced data in Rust, focusing on methods like SMOTE, undersampling, and cost-sensitive learning. Apply these techniques to a dataset with a significant class imbalance, such as fraud detection or rare disease diagnosis.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different resampling strategies and evaluate their impact on model sensitivity, specificity, and overall accuracy.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 18.5: Developing Data Augmentation Techniques in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement data augmentation techniques in Rust, focusing on domains like computer vision or NLP, where increasing the diversity of training data can significantly improve model robustness. Apply these techniques to an image or text dataset.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different augmentation strategies, such as image rotations, text paraphrasing, or synthetic data generation, and evaluate their impact on model generalization and performance.</p>
+        </div>
+    </div>
+    <p class="text-justify">
+        By completing these tasks, you will gain hands-on experience with Data Processing and Feature Engineering, deepening your understanding of their implementation and application in machine learning.
+    </p>
+</section>
+
+---

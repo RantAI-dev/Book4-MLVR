@@ -1119,21 +1119,67 @@ By engaging with these questions, you will explore the theoretical foundations, 
 By completing these tasks, you will gain hands-on experience with AutoML, deepening your understanding of its implementation and application in machine learning.
 </p>
 
-#### **Exercise 17.1:** Implementing an AutoML Pipeline in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a basic AutoML pipeline in Rust, focusing on automating the processes of model selection, hyperparameter tuning, and feature engineering. Apply the pipeline to a dataset with diverse features, such as a tabular dataset with both numerical and categorical variables.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different automation strategies and evaluate the trade-offs between model accuracy, interpretability, and computational efficiency.</p>
-#### **Exercise 17.2:** Developing Automated Feature Engineering in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement automated feature engineering techniques in Rust, focusing on feature extraction, transformation, and selection. Apply these techniques to a complex dataset, such as a text or image dataset, and evaluate the impact on model performance.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Analyze the effectiveness of different feature engineering strategies, and experiment with combining automated techniques with manual feature engineering to optimize results.</p>
-#### **Exercise 17.3:** Implementing Neural Architecture Search (NAS) in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a simple Neural Architecture Search algorithm in Rust, focusing on automating the design of neural network architectures. Apply NAS to a deep learning task, such as image classification, and evaluate the performance of the generated architectures.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different search strategies, such as reinforcement learning or evolutionary algorithms, and analyze their impact on the efficiency and effectiveness of the search process.</p>
-#### **Exercise 17.4:** Building a Meta-Learning System in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a meta-learning system in Rust, focusing on enabling the model to learn from previous tasks or datasets. Apply the system to a new task with limited data, such as few-shot learning, and evaluate its performance compared to traditional learning methods.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different meta-learning algorithms, such as model-agnostic meta-learning (MAML), and analyze their ability to generalize across tasks.</p>
-#### **Exercise 17.5:** Implementing Explainability Techniques for AutoML Models in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement explainability techniques in Rust, such as SHAP values or LIME, to interpret the decisions of an AutoML-generated model. Apply these techniques to a complex model, such as a deep learning model, and evaluate how well the model’s decisions can be understood by non-experts.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different explainability methods and analyze their impact on model transparency, user trust, and decision-making processes.</p>
-<p style="text-align: justify;">
-Embrace the difficulty of these exercises as an opportunity to refine your skills and prepare yourself for tackling complex real-world problems using Rust and AutoML.
-</p>
+---
+
+<section class="mt-5">
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 17.1: Implementing an AutoML Pipeline in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a basic AutoML pipeline in Rust, focusing on automating the processes of model selection, hyperparameter tuning, and feature engineering. Apply the pipeline to a dataset with diverse features, such as a tabular dataset with both numerical and categorical variables.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different automation strategies and evaluate the trade-offs between model accuracy, interpretability, and computational efficiency.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 17.2: Developing Automated Feature Engineering in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement automated feature engineering techniques in Rust, focusing on feature extraction, transformation, and selection. Apply these techniques to a complex dataset, such as a text or image dataset, and evaluate the impact on model performance.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Analyze the effectiveness of different feature engineering strategies, and experiment with combining automated techniques with manual feature engineering to optimize results.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 17.3: Implementing Neural Architecture Search (NAS) in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a simple Neural Architecture Search algorithm in Rust, focusing on automating the design of neural network architectures. Apply NAS to a deep learning task, such as image classification, and evaluate the performance of the generated architectures.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different search strategies, such as reinforcement learning or evolutionary algorithms, and analyze their impact on the efficiency and effectiveness of the search process.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 17.4: Building a Meta-Learning System in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a meta-learning system in Rust, focusing on enabling the model to learn from previous tasks or datasets. Apply the system to a new task with limited data, such as few-shot learning, and evaluate its performance compared to traditional learning methods.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different meta-learning algorithms, such as model-agnostic meta-learning (MAML), and analyze their ability to generalize across tasks.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 17.5: Implementing Explainability Techniques for AutoML Models in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement explainability techniques in Rust, such as SHAP values or LIME, to interpret the decisions of an AutoML-generated model. Apply these techniques to a complex model, such as a deep learning model, and evaluate how well the model’s decisions can be understood by non-experts.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different explainability methods and analyze their impact on model transparency, user trust, and decision-making processes.</p>
+        </div>
+    </div>
+    <p class="text-justify">
+        Embrace the difficulty of these exercises as an opportunity to refine your skills and prepare yourself for tackling complex real-world problems using Rust and AutoML.
+    </p>
+</section>
+
+---

@@ -929,25 +929,57 @@ By engaging with these questions, you will not only deepen your knowledge of the
 </p>
 
 ## 4.7.2. Hands On Practices
-<p style="text-align: justify;">
-These exercises are designed to be challenging and in-depth, requiring you to apply both theoretical knowledge and practical skills in Rust.
-</p>
+<p style="text-align: justify;">These exercises are designed to be challenging and in-depth, requiring you to apply both theoretical knowledge and practical skills in Rust.</p>
 
-#### **Exercise 4.1:** Building a Complex Data Processing Pipeline Using Rust Crates
-- <p style="text-align: justify;"><strong>Task</strong>: Design and implement a data processing pipeline in Rust that handles a large, complex dataset (e.g., time series data, text data). Use crates like <code>serde</code>, <code>ndarray</code>, and <code>polars</code> to clean, transform, and prepare the data for machine learning. Ensure that the pipeline is scalable and efficient.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Implement data transformations such as normalization, encoding, and feature extraction. Optimize the pipeline for performance, focusing on memory usage and processing speed. Reflect on the challenges of handling different data types and large-scale data in Rust.</p>
-#### **Exercise 2:** Implementing and Optimizing a Machine Learning Model with `linfa`
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a machine learning model (e.g., logistic regression, k-means clustering) using the <code>linfa</code> crate in Rust. Focus on optimizing the model's performance through hyperparameter tuning and cross-validation.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Implement cross-validation to evaluate the model's robustness and apply grid search or random search for hyperparameter optimization. Compare the performance of the model with different configurations and discuss the trade-offs involved.</p>
-#### **Exercise 3:** Integrating Deep Learning with Rust Using `tch-rs`
-- <p style="text-align: justify;"><strong>Task</strong>: Develop a deep learning model in Rust using the <code>tch-rs</code> crate, leveraging PyTorch's capabilities for tasks like image classification or natural language processing.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Implement the model architecture, training loop, and evaluation metrics in Rust. Compare the performance of the Rust-based implementation with a similar model in Python, focusing on training speed, memory usage, and inference time. Reflect on the challenges and advantages of using <code>tch-rs</code> for deep learning in Rust.</p>
-#### **Exercise 4:** Parallelizing a Machine Learning Workflow with Rust’s Concurrency Features
-- <p style="text-align: justify;"><strong>Task</strong>: Create a parallelized machine learning workflow in Rust that processes data, trains a model, and evaluates the results concurrently. Use crates like <code>rayon</code> for parallel data processing and <code>criterion</code> for benchmarking.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Ensure thread safety and manage data dependencies effectively to avoid race conditions. Benchmark the parallelized workflow against a sequential implementation and analyze the performance improvements. Discuss the challenges of implementing concurrency in a machine learning context.</p>
-#### **Exercise 5:** Visualizing and Interpreting Machine Learning Results with Rust Crates
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a comprehensive data visualization tool in Rust using crates like <code>plotters</code> and <code>ggraph</code> to visualize the performance and behavior of a machine learning model. Focus on creating visualizations that aid in model interpretation and decision-making.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Design and implement custom visualizations, such as ROC curves, confusion matrices, and feature importance plots. Integrate these visualizations into a machine learning pipeline to provide real-time insights during model training and evaluation. Discuss the importance of visualization in understanding and improving machine learning models.</p>
-<p style="text-align: justify;">
-By completing these tasks, you will gain hands-on experience with the most powerful crates in the Rust ecosystem and develop the expertise needed to tackle complex machine learning problems. Embrace the difficulty of these exercises as an opportunity to deepen your understanding and refine your skills in the rapidly evolving field of machine learning via Rust.
-</p>
+---
+
+<section class="mt-5">
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">Exercise 4.1: Building a Complex Data Processing Pipeline Using Rust Crates</div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Design and implement a data processing pipeline in Rust that handles a large, complex dataset (e.g., time series data, text data). Use crates like <code>serde</code>, <code>ndarray</code>, and <code>polars</code> to clean, transform, and prepare the data for machine learning. Ensure that the pipeline is scalable and efficient.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Implement data transformations such as normalization, encoding, and feature extraction. Optimize the pipeline for performance, focusing on memory usage and processing speed. Reflect on the challenges of handling different data types and large-scale data in Rust.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">Exercise 4.2: Implementing and Optimizing a Machine Learning Model with `linfa`</div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a machine learning model (e.g., logistic regression, k-means clustering) using the <code>linfa</code> crate in Rust. Focus on optimizing the model's performance through hyperparameter tuning and cross-validation.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Implement cross-validation to evaluate the model's robustness and apply grid search or random search for hyperparameter optimization. Compare the performance of the model with different configurations and discuss the trade-offs involved.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">Exercise 4.3: Integrating Deep Learning with Rust Using `tch-rs`</div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Develop a deep learning model in Rust using the <code>tch-rs</code> crate, leveraging PyTorch's capabilities for tasks like image classification or natural language processing.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Implement the model architecture, training loop, and evaluation metrics in Rust. Compare the performance of the Rust-based implementation with a similar model in Python, focusing on training speed, memory usage, and inference time. Reflect on the challenges and advantages of using <code>tch-rs</code> for deep learning in Rust.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">Exercise 4.4: Parallelizing a Machine Learning Workflow with Rust’s Concurrency Features</div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Create a parallelized machine learning workflow in Rust that processes data, trains a model, and evaluates the results concurrently. Use crates like <code>rayon</code> for parallel data processing and <code>criterion</code> for benchmarking.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Ensure thread safety and manage data dependencies effectively to avoid race conditions. Benchmark the parallelized workflow against a sequential implementation and analyze the performance improvements. Discuss the challenges of implementing concurrency in a machine learning context.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">Exercise 4.5: Visualizing and Interpreting Machine Learning Results with Rust Crates</div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a comprehensive data visualization tool in Rust using crates like <code>plotters</code> and <code>ggraph</code> to visualize the performance and behavior of a machine learning model. Focus on creating visualizations that aid in model interpretation and decision-making.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Design and implement custom visualizations, such as ROC curves, confusion matrices, and feature importance plots. Integrate these visualizations into a machine learning pipeline to provide real-time insights during model training and evaluation. Discuss the importance of visualization in understanding and improving machine learning models.</p>
+        </div>
+    </div>
+    <p class="text-justify">By completing these tasks, you will gain hands-on experience with the most powerful crates in the Rust ecosystem and develop the expertise needed to tackle complex machine learning problems. Embrace the difficulty of these exercises as an opportunity to deepen your understanding and refine your skills in the rapidly evolving field of machine learning via Rust.</p>
+</section>
+
+---

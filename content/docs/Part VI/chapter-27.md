@@ -838,21 +838,67 @@ Each prompt encourages you to think critically about how Rust can be leveraged t
 By completing these tasks, you will gain hands-on experience with the future-oriented aspects of machine learning, deepening your understanding of how Rust can be used to drive innovation and address the challenges of modern ML development.
 </p>
 
-#### **Exercise 27.1:** Implementing a Scalable Machine Learning Model in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Develop a scalable machine learning model in Rust that can handle large datasets efficiently. Focus on optimizing memory usage and performance to ensure the model scales effectively.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different optimization techniques and assess their impact on the model's scalability and performance.</p>
-#### **Exercise 27.2:** Building a Federated Learning System with Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a federated learning system in Rust, focusing on secure data handling and model training across distributed networks. Ensure that privacy-preserving techniques are integrated into the system.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with various federated learning strategies and evaluate their effectiveness in maintaining privacy while achieving accurate model results.</p>
-#### **Exercise 27.3:** Developing a Real-Time Machine Learning Application for Edge Computing
-- <p style="text-align: justify;"><strong>Task</strong>: Create a real-time machine learning application in Rust for deployment on edge devices. Optimize the application for low-latency performance and efficient resource usage.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Explore different concurrency models and assess their impact on the application's real-time performance.</p>
-#### **Exercise 27.4:** Contributing to a Rust-Based Machine Learning Library
-- <p style="text-align: justify;"><strong>Task</strong>: Contribute to an existing Rust-based machine learning library or develop a new library that addresses a specific ML challenge. Focus on creating scalable, efficient, and user-friendly tools.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Engage with the Rust ML community, gather feedback on your contributions, and iterate on your library to improve its functionality and usability.</p>
-#### **Exercise 27.5:** Implementing an Explainable AI Model in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Develop an explainable AI model in Rust, incorporating transparency and interpretability features such as feature importance analysis, model simplification, and user-friendly explanations.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different explainability techniques and evaluate their effectiveness in making the model more understandable and trustworthy.</p>
-<p style="text-align: justify;">
-These exercises are designed to be challenging and in-depth, requiring you to apply both theoretical knowledge and practical skills in Rust. Embrace the difficulty of these exercises as an opportunity to refine your skills and prepare yourself for the future of machine learning with Rust.
-</p>
+---
+
+<section class="mt-5">
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 27.1: Implementing a Scalable Machine Learning Model in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Develop a scalable machine learning model in Rust that can handle large datasets efficiently. Focus on optimizing memory usage and performance to ensure the model scales effectively.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different optimization techniques and assess their impact on the model's scalability and performance.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 27.2: Building a Federated Learning System with Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a federated learning system in Rust, focusing on secure data handling and model training across distributed networks. Ensure that privacy-preserving techniques are integrated into the system.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with various federated learning strategies and evaluate their effectiveness in maintaining privacy while achieving accurate model results.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 27.3: Developing a Real-Time Machine Learning Application for Edge Computing
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Create a real-time machine learning application in Rust for deployment on edge devices. Optimize the application for low-latency performance and efficient resource usage.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Explore different concurrency models and assess their impact on the application's real-time performance.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 27.4: Contributing to a Rust-Based Machine Learning Library
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Contribute to an existing Rust-based machine learning library or develop a new library that addresses a specific ML challenge. Focus on creating scalable, efficient, and user-friendly tools.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Engage with the Rust ML community, gather feedback on your contributions, and iterate on your library to improve its functionality and usability.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 27.5: Implementing an Explainable AI Model in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Develop an explainable AI model in Rust, incorporating transparency and interpretability features such as feature importance analysis, model simplification, and user-friendly explanations.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different explainability techniques and evaluate their effectiveness in making the model more understandable and trustworthy.</p>
+        </div>
+    </div>
+    <p class="text-justify">
+        These exercises are designed to be challenging and in-depth, requiring you to apply both theoretical knowledge and practical skills in Rust. Embrace the difficulty of these exercises as an opportunity to refine your skills and prepare yourself for the future of machine learning with Rust.
+    </p>
+</section>
+
+---

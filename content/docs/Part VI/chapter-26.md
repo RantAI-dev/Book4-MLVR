@@ -1457,21 +1457,67 @@ Each prompt encourages you to delve deeper into the fascinating world of quantum
 These exercises are designed to be challenging and in-depth, requiring you to apply both theoretical knowledge and practical skills in Rust.
 </p>
 
-#### **Exercise 26.1:** Implementing a Basic Quantum Circuit in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a basic quantum circuit in Rust, using quantum gates like Hadamard, CNOT, and Pauli-X. Apply the circuit to a simple problem, such as generating a superposition state.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different gate combinations and analyze their effects on the quantum state, comparing the results with classical equivalents.</p>
-#### **Exercise 26.2:** Building a Quantum-Classical Hybrid Model in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a hybrid quantum-classical model in Rust, combining a quantum algorithm (e.g., quantum Fourier transform) with a classical machine learning model (e.g., SVM). Evaluate the hybrid model's performance on a specific dataset.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different quantum and classical components, analyzing their synergy and overall impact on model accuracy and efficiency.</p>
-#### **Exercise 26.3:** Implementing Quantum Optimization for a Machine Learning Problem
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a quantum optimization algorithm, such as quantum annealing, in Rust to solve a machine learning optimization problem (e.g., hyperparameter tuning). Evaluate the results compared to classical optimization methods.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with various quantum optimization settings and analyze their effectiveness in improving model performance.</p>
-#### **Exercise 26.4:** Creating a Quantum Neural Network (QNN) in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a Quantum Neural Network (QNN) in Rust, using quantum circuits as the building blocks for the network layers. Train the QNN on a quantum dataset and evaluate its performance against a classical neural network.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Explore different QNN architectures and quantum gate combinations, assessing their impact on the learning process and model accuracy.</p>
-#### **Exercise 26.5:** Developing a Quantum Kernel Method for Classification in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a quantum kernel method in Rust, applying it to a classification problem. Compare the quantum kernel's performance with that of classical kernel methods, such as RBF or polynomial kernels.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different quantum kernel configurations and analyze their effectiveness in capturing complex patterns in the data.</p>
-<p style="text-align: justify;">
-Embrace the difficulty of these exercises as an opportunity to refine your skills and prepare yourself for tackling the exciting challenges of Quantum Machine Learning using Rust.
-</p>
+---
+
+<section class="mt-5">
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 26.1: Implementing a Basic Quantum Circuit in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a basic quantum circuit in Rust, using quantum gates like Hadamard, CNOT, and Pauli-X. Apply the circuit to a simple problem, such as generating a superposition state.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different gate combinations and analyze their effects on the quantum state, comparing the results with classical equivalents.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 26.2: Building a Quantum-Classical Hybrid Model in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a hybrid quantum-classical model in Rust, combining a quantum algorithm (e.g., quantum Fourier transform) with a classical machine learning model (e.g., SVM). Evaluate the hybrid model's performance on a specific dataset.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different quantum and classical components, analyzing their synergy and overall impact on model accuracy and efficiency.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 26.3: Implementing Quantum Optimization for a Machine Learning Problem
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a quantum optimization algorithm, such as quantum annealing, in Rust to solve a machine learning optimization problem (e.g., hyperparameter tuning). Evaluate the results compared to classical optimization methods.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with various quantum optimization settings and analyze their effectiveness in improving model performance.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 26.4: Creating a Quantum Neural Network (QNN) in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a Quantum Neural Network (QNN) in Rust, using quantum circuits as the building blocks for the network layers. Train the QNN on a quantum dataset and evaluate its performance against a classical neural network.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Explore different QNN architectures and quantum gate combinations, assessing their impact on the learning process and model accuracy.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 26.5: Developing a Quantum Kernel Method for Classification in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a quantum kernel method in Rust, applying it to a classification problem. Compare the quantum kernel's performance with that of classical kernel methods, such as RBF or polynomial kernels.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different quantum kernel configurations and analyze their effectiveness in capturing complex patterns in the data.</p>
+        </div>
+    </div>
+    <p class="text-justify">
+        Embrace the difficulty of these exercises as an opportunity to refine your skills and prepare yourself for tackling the exciting challenges of Quantum Machine Learning using Rust.
+    </p>
+</section>
+
+---

@@ -1267,21 +1267,67 @@ Each prompt is designed to push your understanding of machine learning and Rust 
 These exercises are designed to push your technical skills to the limit, offering a deep dive into the practical aspects of machine learning with Rust.
 </p>
 
-#### **Exercise 1.1:** Comprehensive Machine Learning Problem Formulation and Rust Implementation
-- <p style="text-align: justify;"><strong>Task</strong>: Choose a complex real-world scenario, such as predicting customer lifetime value for an e-commerce platform or detecting fraudulent transactions in a financial dataset. Formulate this scenario as a machine learning problem by thoroughly defining the input features (e.g., transaction history, customer demographics), target outputs (e.g., binary fraud detection label, regression output for customer value), and the appropriate machine learning model(s) (e.g., logistic regression for classification, decision trees for regression).</p>
-- <p style="text-align: justify;"><strong>Implementation</strong>: Develop a Rust struct to represent the problem components, ensuring it captures the complexity of the scenario, such as handling multiple feature types (categorical, numerical, time-series). Write code to preprocess the data, including handling missing values, feature encoding, and data normalization. Implement functions for loading and transforming the data into a format suitable for model training. Finally, select an appropriate algorithm and implement the basic model training loop in Rust, discussing the challenges and decisions made during the process.</p>
-#### **Exercise 1.2:** Advanced Data Normalization Techniques and Their Impact on Model Performance
-- <p style="text-align: justify;"><strong>Task</strong>: Write a Rust program that implements multiple data normalization techniques, such as Min-Max scaling, Z-score normalization, and RobustScaler (which scales using the interquartile range). Apply these techniques to a complex, multi-dimensional dataset, such as an image dataset (for computer vision tasks) or a financial dataset with outliers.</p>
-- <p style="text-align: justify;"><strong>Implementation</strong>: Use Rust’s ndarray and serde crates to load, manipulate, and normalize the data. Implement custom normalization functions and compare their effects on different types of features (e.g., skewed distributions, categorical variables). Train a machine learning model (e.g., a support vector machine or neural network) on the normalized datasets and evaluate the impact of each normalization technique on the model’s performance metrics (e.g., accuracy, precision, recall, training time). Discuss the trade-offs and performance implications of each technique, including how well they handle outliers and the computational efficiency of the implementations.</p>
-#### **Exercise 1.3:** Building and Analyzing a Robust Cross-Validation Pipeline
-- <p style="text-align: justify;"><strong>Task</strong>: Develop a robust cross-validation pipeline in Rust that supports multiple model types (e.g., linear regression, decision trees, SVMs) and implements advanced cross-validation techniques, such as stratified k-fold, time-series split, and nested cross-validation for hyperparameter tuning.</p>
-- <p style="text-align: justify;"><strong>Implementation</strong>: Using Rust’s ndarray, linfa, and other relevant crates, create a modular pipeline that can be easily extended to support additional models and validation techniques. Implement stratified k-fold cross-validation to ensure balanced class distribution in each fold, and time-series split for scenarios where the order of data points matters (e.g., stock price prediction). Extend the pipeline to include nested cross-validation for selecting optimal hyperparameters. Apply this pipeline to a complex, real-world dataset, and evaluate the models’ performances. Analyze and compare the results from different cross-validation methods, discussing their suitability for various types of data and models. Additionally, implement logging and reporting features to track the cross-validation process and results.</p>
-#### **Exercise 1.4:** Implementing and Experimenting with Gradient Descent Variants
-- <p style="text-align: justify;"><strong>Task</strong>: Implement multiple variants of the gradient descent algorithm in Rust, including batch gradient descent, stochastic gradient descent (SGD), and mini-batch gradient descent. Apply these algorithms to train a linear regression model and a neural network model on different types of datasets (e.g., regression dataset, image dataset).</p>
-- <p style="text-align: justify;"><strong>Implementation</strong>: Start by coding a basic gradient descent loop for a linear regression model, then extend it to support neural networks. Implement learning rate schedules, such as exponential decay and adaptive learning rates (e.g., AdaGrad, RMSprop). Use Rust’s concurrency features (e.g., multi-threading) to parallelize the mini-batch gradient descent, experimenting with different batch sizes and learning rates. Compare the convergence speed, accuracy, and stability of each gradient descent variant across different datasets and models. Discuss the implications of choosing one variant over another in terms of computational efficiency, model performance, and suitability for specific tasks.</p>
-#### **Exercise 1.5:** Scalable Model Training Process Using Rust’s Concurrency Features
-- <p style="text-align: justify;"><strong>Task</strong>: Design a scalable model training process for a complex machine learning model, such as a deep neural network or an ensemble model (e.g., random forest), using Rust’s concurrency features. The model should be trained on a large-scale dataset, such as a big data framework or a multi-GPU setup.</p>
-- <p style="text-align: justify;"><strong>Implementation</strong>: Begin by outlining the architecture of the model training process, identifying areas where concurrency can be leveraged (e.g., data loading, preprocessing, model training). Implement parallel data loading and preprocessing using Rust’s async/await or thread pools, ensuring that the model training process is not bottlenecked by I/O operations. Parallelize the training of the model using Rust’s multi-threading features, distributing the workload across multiple CPU cores or GPUs. Implement mechanisms for synchronizing model updates (e.g., using mutexes or atomic operations) and handling edge cases (e.g., dealing with stragglers or failed tasks). Test the implementation on a large-scale dataset, measuring the performance improvements and analyzing the trade-offs between complexity and efficiency. Document the entire process, including the challenges faced, how they were overcome, and the final performance metrics of the model.</p>
-<p style="text-align: justify;">
-Remember, the journey to mastery is built on persistence and practice. Each exercise you complete brings you closer to becoming a true expert in machine learning via Rust. Embrace the challenge, and let your curiosity and determination drive you to new heights of technical excellence.
-</p>
+---
+
+<section class="mt-5">
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 1.1: Comprehensive Machine Learning Problem Formulation and Rust Implementation
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Choose a complex real-world scenario (e.g., predicting customer lifetime value or detecting fraudulent transactions). Formulate it as a machine learning problem, defining input features, target outputs, and suitable models.</p>
+            <p><strong>Implementation:</strong></p>
+            <p class="text-justify">Create a Rust struct to represent the problem, preprocess data, and implement a model training loop, discussing the challenges faced.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 1.2: Advanced Data Normalization Techniques and Their Impact on Model Performance
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement multiple data normalization techniques (e.g., Min-Max scaling, Z-score) and apply them to a complex dataset.</p>
+            <p><strong>Implementation:</strong></p>
+            <p class="text-justify">Use Rust crates like ndarray and serde to normalize the data. Train a model on each normalized dataset and compare the effects on performance.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 1.3: Building and Analyzing a Robust Cross-Validation Pipeline
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Develop a cross-validation pipeline supporting multiple models (e.g., linear regression, decision trees, SVMs) and techniques like stratified k-fold and nested cross-validation.</p>
+            <p><strong>Implementation:</strong></p>
+            <p class="text-justify">Use Rust's ndarray and linfa crates to create a modular cross-validation pipeline and evaluate model performance on a real-world dataset.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 1.4: Implementing and Experimenting with Gradient Descent Variants
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement gradient descent variants (e.g., batch, stochastic, mini-batch) to train a linear regression model and a neural network.</p>
+            <p><strong>Implementation:</strong></p>
+            <p class="text-justify">Write Rust code to support gradient descent algorithms, compare their convergence speed, accuracy, and discuss computational efficiency.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 1.5: Scalable Model Training Process Using Rust’s Concurrency Features
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Design a scalable training process for a machine learning model using Rust's concurrency features, training it on a large-scale dataset.</p>
+            <p><strong>Implementation:</strong></p>
+            <p class="text-justify">Implement parallel data loading and model training using Rust’s async/await and multi-threading features. Analyze performance improvements.</p>
+        </div>
+    </div>
+    <p class="text-justify">
+    Each of these exercises is designed to help you master both the theoretical and practical aspects of machine learning with Rust. Completing them will take your skills to the next level and prepare you for real-world machine learning challenges.
+    </p>
+</section>
+
+---

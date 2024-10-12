@@ -913,26 +913,58 @@ These prompts are designed to encourage deep exploration of the concepts and tec
 Each prompt offers an opportunity to explore, experiment, and refine your skills, helping you become a more proficient and knowledgeable machine learning practitioner. Embrace these challenges as a way to push the boundaries of your expertise and apply your knowledge to solve complex problems with SVMs and Rust.
 </p>
 
-## 7.7.2. Hands On Practices
-<p style="text-align: justify;">
-These exercises are designed to be challenging and in-depth, requiring you to apply both theoretical knowledge and practical skills in Rust.
-</p>
+## 7.7.2. Hands-On Practices
+<p style="text-align: justify;">These exercises are designed to be challenging and in-depth, requiring you to apply both theoretical knowledge and practical skills in Rust.</p>
 
-#### **Exercise 7.1:** Implementing a Basic Support Vector Machine from Scratch in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a basic SVM algorithm from scratch in Rust, focusing on finding the optimal hyperplane that maximizes the margin between classes. Apply your implementation to a binary classification problem and evaluate its performance.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Ensure that your implementation handles different types of data and is optimized for performance. Experiment with different margin sizes and analyze their impact on the decision boundary and classification accuracy.</p>
-#### **Exercise 7.2:** Developing a Kernelized SVM in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a kernelized SVM in Rust, allowing the SVM to handle non-linearly separable data by mapping it to a higher-dimensional space. Experiment with different kernel functions (linear, polynomial, RBF) and apply your model to a non-linear classification problem.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Optimize your implementation for speed and scalability, particularly when dealing with large datasets and complex kernels. Compare the performance of different kernels and analyze their effects on the decision boundary.</p>
-#### **Exercise 7.3:** Implementing Support Vector Regression (SVR) in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement SVR in Rust, focusing on how the SVM framework can be adapted for regression tasks. Apply your SVR model to a real-world regression problem, such as predicting housing prices, and compare its performance with traditional regression methods.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Ensure that your implementation efficiently handles the epsilon-insensitive loss function and is capable of scaling with large datasets. Experiment with different values of the epsilon parameter and analyze its impact on model performance.</p>
-#### **Exercise 7.4:** Tuning Hyperparameters for SVMs in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a hyperparameter tuning pipeline in Rust for SVM models, focusing on optimizing parameters like C, kernel type, and gamma. Use techniques such as grid search or random search to find the best hyperparameters for your SVM model on a complex dataset.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Optimize your pipeline for computational efficiency, particularly when tuning multiple hyperparameters simultaneously. Analyze the impact of different hyperparameter settings on model accuracy, and visualize the results to gain insights into the tuning process.</p>
-#### **Exercise 7.5:** Visualizing and Interpreting SVM Models in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement visualization tools in Rust to interpret the results of an SVM model. Focus on visualizing the decision boundary, support vectors, and model coefficients, and apply these visualizations to a real-world dataset to explain the model's predictions.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Develop custom visualizations that provide insights into the SVM model's behavior and decision-making process. Use these visualizations to interpret and communicate the model's predictions to a non-technical audience.</p>
-<p style="text-align: justify;">
-Embrace the difficulty of these exercises as an opportunity to refine your skills and prepare yourself for tackling real-world challenges in machine learning via Rust.
-</p>
+---
+
+<section class="mt-5">
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">Exercise 7.1: Implementing a Basic Support Vector Machine from Scratch in Rust</div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a basic SVM algorithm from scratch in Rust, focusing on finding the optimal hyperplane that maximizes the margin between classes. Apply your implementation to a binary classification problem and evaluate its performance.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Ensure that your implementation handles different types of data and is optimized for performance. Experiment with different margin sizes and analyze their impact on the decision boundary and classification accuracy.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">Exercise 7.2: Developing a Kernelized SVM in Rust</div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a kernelized SVM in Rust, allowing the SVM to handle non-linearly separable data by mapping it to a higher-dimensional space. Experiment with different kernel functions (linear, polynomial, RBF) and apply your model to a non-linear classification problem.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Optimize your implementation for speed and scalability, particularly when dealing with large datasets and complex kernels. Compare the performance of different kernels and analyze their effects on the decision boundary.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">Exercise 7.3: Implementing Support Vector Regression (SVR) in Rust</div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement SVR in Rust, focusing on how the SVM framework can be adapted for regression tasks. Apply your SVR model to a real-world regression problem, such as predicting housing prices, and compare its performance with traditional regression methods.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Ensure that your implementation efficiently handles the epsilon-insensitive loss function and is capable of scaling with large datasets. Experiment with different values of the epsilon parameter and analyze its impact on model performance.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">Exercise 7.4: Tuning Hyperparameters for SVMs in Rust</div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a hyperparameter tuning pipeline in Rust for SVM models, focusing on optimizing parameters like C, kernel type, and gamma. Use techniques such as grid search or random search to find the best hyperparameters for your SVM model on a complex dataset.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Optimize your pipeline for computational efficiency, particularly when tuning multiple hyperparameters simultaneously. Analyze the impact of different hyperparameter settings on model accuracy, and visualize the results to gain insights into the tuning process.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">Exercise 7.5: Visualizing and Interpreting SVM Models in Rust</div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement visualization tools in Rust to interpret the results of an SVM model. Focus on visualizing the decision boundary, support vectors, and model coefficients, and apply these visualizations to a real-world dataset to explain the model's predictions.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Develop custom visualizations that provide insights into the SVM model's behavior and decision-making process. Use these visualizations to interpret and communicate the model's predictions to a non-technical audience.</p>
+        </div>
+    </div>
+    <p class="text-justify">Embrace the difficulty of these exercises as an opportunity to refine your skills and prepare yourself for tackling real-world challenges in machine learning via Rust.</p>
+</section>
+
+---

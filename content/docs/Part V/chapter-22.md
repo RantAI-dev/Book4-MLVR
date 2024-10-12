@@ -620,26 +620,72 @@ By exploring these prompts, you will deepen your knowledge of the theoretical fo
 Each prompt encourages you to think critically about the integration of machine learning and cloud technologies, and to apply your knowledge to create scalable, secure, and efficient MLOps pipelines.
 </p>
 
-## **22.8.2. Hands On Practices**
+## 22.8.2. Hands On Practices
 <p style="text-align: justify;">
 By completing the following tasks, you will gain hands-on experience with Machine Learning Operations in the Cloud, deepening your understanding of their implementation and application in real-world environments.
 </p>
 
-#### **Exercise 22.1:** Implementing a Cloud-Native MLOps Pipeline in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a cloud-native MLOps pipeline in Rust, focusing on automating the processes of model deployment, monitoring, and updating using cloud services like AWS SageMaker or Azure ML.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different cloud services and automation tools to optimize the pipeline for performance, scalability, and reliability.</p>
-#### **Exercise 22.2:** Developing CI/CD for Cloud-Based Machine Learning Models in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a CI/CD pipeline in Rust for deploying machine learning models to the cloud, focusing on automating testing, validation, and deployment stages. Use cloud services like AWS CodePipeline or Google Cloud Build.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different CI/CD configurations and analyze their impact on deployment speed, reliability, and rollback capabilities.</p>
-#### **Exercise 22.3:** Implementing Monitoring and Observability for Rust-Based Models in the Cloud
-- <p style="text-align: justify;"><strong>Task</strong>: Implement monitoring and observability for a Rust-based machine learning model deployed in the cloud, using tools like Prometheus, Grafana, and CloudWatch. Track key metrics such as latency, throughput, and model drift.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different monitoring strategies and tools, and analyze their effectiveness in maintaining model reliability and performance.</p>
-#### **Exercise 22.4:** Deploying Machine Learning Models in a Multi-Cloud Environment Using Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a deployment pipeline for a Rust-based machine learning model across multiple cloud providers (e.g., AWS, Azure, Google Cloud). Ensure that the model is deployed redundantly across clouds to enhance reliability and flexibility.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different multi-cloud deployment strategies, such as active-active and active-passive configurations, and analyze their impact on redundancy, failover, and cost.</p>
-#### **Exercise 22.5:** Implementing Security and Compliance for Cloud-Based MLOps in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement security and compliance measures for a Rust-based machine learning model deployed in the cloud, focusing on data encryption, access control, and adherence to regulatory standards like GDPR and HIPAA.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different security protocols and compliance frameworks, and analyze their effectiveness in protecting models and data in the cloud.</p>
-<p style="text-align: justify;">
-Embrace the difficulty of these exercises as an opportunity to refine your skills and prepare yourself for tackling complex MLOps challenges using Rust in cloud environments.
-</p>
+---
+
+<section class="mt-5">
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 22.1: Implementing a Cloud-Native MLOps Pipeline in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a cloud-native MLOps pipeline in Rust, focusing on automating the processes of model deployment, monitoring, and updating using cloud services like AWS SageMaker or Azure ML.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different cloud services and automation tools to optimize the pipeline for performance, scalability, and reliability.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 22.2: Developing CI/CD for Cloud-Based Machine Learning Models in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a CI/CD pipeline in Rust for deploying machine learning models to the cloud, focusing on automating testing, validation, and deployment stages. Use cloud services like AWS CodePipeline or Google Cloud Build.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different CI/CD configurations and analyze their impact on deployment speed, reliability, and rollback capabilities.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 22.3: Implementing Monitoring and Observability for Rust-Based Models in the Cloud
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement monitoring and observability for a Rust-based machine learning model deployed in the cloud, using tools like Prometheus, Grafana, and CloudWatch. Track key metrics such as latency, throughput, and model drift.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different monitoring strategies and tools, and analyze their effectiveness in maintaining model reliability and performance.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 22.4: Deploying Machine Learning Models in a Multi-Cloud Environment Using Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a deployment pipeline for a Rust-based machine learning model across multiple cloud providers (e.g., AWS, Azure, Google Cloud). Ensure that the model is deployed redundantly across clouds to enhance reliability and flexibility.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different multi-cloud deployment strategies, such as active-active and active-passive configurations, and analyze their impact on redundancy, failover, and cost.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 22.5: Implementing Security and Compliance for Cloud-Based MLOps in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement security and compliance measures for a Rust-based machine learning model deployed in the cloud, focusing on data encryption, access control, and adherence to regulatory standards like GDPR and HIPAA.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different security protocols and compliance frameworks, and analyze their effectiveness in protecting models and data in the cloud.</p>
+        </div>
+    </div>
+    <p class="text-justify">
+        Embrace the difficulty of these exercises as an opportunity to refine your skills and prepare yourself for tackling complex MLOps challenges using Rust in cloud environments.
+    </p>
+</section>
+
+---

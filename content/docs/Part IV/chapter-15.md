@@ -1143,21 +1143,67 @@ Each prompt encourages you to think critically and apply what you learn to solve
 These exercises are designed to be challenging and in-depth, requiring you to apply both theoretical knowledge and practical skills in Rust.
 </p>
 
-#### **Exercise 15.1:** Implementing a Gaussian Kernel in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement the Gaussian (RBF) kernel function in Rust and apply it to a binary classification task. Experiment with different values of the kernel parameter (gamma) and analyze how it affects the decision boundary.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Compare the performance of the Gaussian kernel with a linear kernel on the same dataset, and visualize the decision boundaries for different gamma values.</p>
-#### **Exercise 15.2:** Developing an SVM with Polynomial Kernels in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement an SVM with a polynomial kernel in Rust, focusing on the role of the polynomial degree in shaping the decision boundary. Apply the SVM to a non-linear classification task and evaluate its accuracy.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different polynomial degrees and regularization parameters, and analyze their impact on model complexity and overfitting.</p>
-#### **Exercise 15.3:** Implementing Kernel Principal Component Analysis (KPCA) in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement KPCA in Rust, focusing on projecting data into a higher-dimensional space to capture non-linear structures. Apply KPCA to a dataset with non-linear patterns and compare the results with standard PCA.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different kernel functions (e.g., Gaussian, polynomial) in KPCA and analyze how the choice of kernel affects the captured variance and resulting features.</p>
-#### **Exercise 15.4:** Building a Gaussian Process with Kernels in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a Gaussian Process in Rust, using a kernel function to define the covariance matrix. Apply the Gaussian Process to a regression task, such as predicting housing prices or stock prices.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different kernel functions (e.g., RBF, linear) and analyze their impact on the smoothness and accuracy of the regression predictions.</p>
-#### **Exercise 15.5:** Developing a Multiple Kernel Learning (MKL) System in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a Multiple Kernel Learning system in Rust, combining several kernels to improve model performance. Apply MKL to a complex dataset, such as image classification or text classification, and evaluate its accuracy.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different combinations of kernels and regularization strategies, and analyze how the choice of kernels impacts the model's generalization ability.</p>
-<p style="text-align: justify;">
-By completing these tasks, you will gain hands-on experience with Kernel Methods, deepening your understanding of their implementation and application in machine learning.
-</p>
+---
+
+<section class="mt-5">
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 15.1: Implementing a Gaussian Kernel in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement the Gaussian (RBF) kernel function in Rust and apply it to a binary classification task. Experiment with different values of the kernel parameter (gamma) and analyze how it affects the decision boundary.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Compare the performance of the Gaussian kernel with a linear kernel on the same dataset, and visualize the decision boundaries for different gamma values.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 15.2: Developing an SVM with Polynomial Kernels in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement an SVM with a polynomial kernel in Rust, focusing on the role of the polynomial degree in shaping the decision boundary. Apply the SVM to a non-linear classification task and evaluate its accuracy.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different polynomial degrees and regularization parameters, and analyze their impact on model complexity and overfitting.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 15.3: Implementing Kernel Principal Component Analysis (KPCA) in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement KPCA in Rust, focusing on projecting data into a higher-dimensional space to capture non-linear structures. Apply KPCA to a dataset with non-linear patterns and compare the results with standard PCA.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different kernel functions (e.g., Gaussian, polynomial) in KPCA and analyze how the choice of kernel affects the captured variance and resulting features.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 15.4: Building a Gaussian Process with Kernels in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a Gaussian Process in Rust, using a kernel function to define the covariance matrix. Apply the Gaussian Process to a regression task, such as predicting housing prices or stock prices.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different kernel functions (e.g., RBF, linear) and analyze their impact on the smoothness and accuracy of the regression predictions.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 15.5: Developing a Multiple Kernel Learning (MKL) System in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a Multiple Kernel Learning system in Rust, combining several kernels to improve model performance. Apply MKL to a complex dataset, such as image classification or text classification, and evaluate its accuracy.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different combinations of kernels and regularization strategies, and analyze how the choice of kernels impacts the model's generalization ability.</p>
+        </div>
+    </div>
+    <p class="text-justify">
+        By completing these tasks, you will gain hands-on experience with Kernel Methods, deepening your understanding of their implementation and application in machine learning.
+    </p>
+</section>
+
+---

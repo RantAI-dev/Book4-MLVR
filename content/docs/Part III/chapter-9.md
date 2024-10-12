@@ -1117,21 +1117,65 @@ Each prompt challenges you to explore, experiment, and critically analyze differ
 These exercises are designed to be challenging and in-depth, requiring you to apply both theoretical knowledge and practical skills in Rust.
 </p>
 
-#### **Exercise 9.1:** Implementing K-Means Clustering in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement the K-Means clustering algorithm from scratch in Rust. Focus on the iterative process of centroid initialization, assignment, and update. Apply your implementation to a real-world dataset, such as customer segmentation or image compression.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Ensure that your implementation handles different initialization methods (e.g., random, k-means++) and experiment with different values of K. Analyze the convergence behavior and the impact of centroid initialization on clustering quality.</p>
-#### **Exercise 9.2:** Developing Hierarchical Clustering with Dendrogram Visualization in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement hierarchical clustering (agglomerative) in Rust, focusing on the linkage criteria and the construction of the dendrogram. Apply your implementation to a dataset and visualize the dendrogram to interpret the clustering hierarchy.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different linkage criteria (single, complete, average) and compare their effects on the dendrogram structure. Analyze how the choice of linkage affects the final clusters and their interpretation.</p>
-#### **Exercise 9.3:** Implementing DBSCAN for Density-Based Clustering in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement the DBSCAN algorithm in Rust, focusing on the concepts of core points, reachable points, and noise. Apply DBSCAN to a dataset with noise and outliers, such as geographic data or social network data.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Tune the epsilon and minPts parameters to achieve optimal clustering results. Compare DBSCAN’s performance with K-Means on the same dataset, particularly in handling noise and discovering clusters of arbitrary shape.</p>
-#### **Exercise 9.4:** Implementing Gaussian Mixture Models with Expectation-Maximization in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement Gaussian Mixture Models (GMM) in Rust using the Expectation-Maximization algorithm. Apply GMMs to a dataset with overlapping clusters, such as customer demographics or market segmentation.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Ensure that your implementation handles soft clustering by assigning probabilities to data points belonging to different clusters. Compare the results of GMMs with K-Means and analyze the benefits of probabilistic clustering.</p>
-#### **Exercise 9.5:** Evaluating Clustering Algorithms with Silhouette Score and Davies-Bouldin Index in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement the silhouette score and Davies-Bouldin index as evaluation metrics in Rust. Use these metrics to evaluate the clustering results from different algorithms (K-Means, DBSCAN, GMM) on a real-world dataset.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Compare the evaluation metrics across different clustering algorithms and analyze which algorithm produces the most meaningful clusters. Visualize the results to gain insights into the strengths and weaknesses of each clustering method.</p>
-<p style="text-align: justify;">
-Embrace the difficulty of these exercises as an opportunity to refine your skills and prepare yourself for tackling real-world challenges in machine learning via Rust.
-</p>
+---
+
+<section class="mt-5">
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 9.1: Implementing K-Means Clustering in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement the K-Means clustering algorithm from scratch in Rust. Focus on the iterative process of centroid initialization, assignment, and update. Apply your implementation to a real-world dataset, such as customer segmentation or image compression.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Ensure that your implementation handles different initialization methods (e.g., random, k-means++) and experiment with different values of K. Analyze the convergence behavior and the impact of centroid initialization on clustering quality.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 9.2: Developing Hierarchical Clustering with Dendrogram Visualization in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement hierarchical clustering (agglomerative) in Rust, focusing on the linkage criteria and the construction of the dendrogram. Apply your implementation to a dataset and visualize the dendrogram to interpret the clustering hierarchy.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different linkage criteria (single, complete, average) and compare their effects on the dendrogram structure. Analyze how the choice of linkage affects the final clusters and their interpretation.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 9.3: Implementing DBSCAN for Density-Based Clustering in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement the DBSCAN algorithm in Rust, focusing on the concepts of core points, reachable points, and noise. Apply DBSCAN to a dataset with noise and outliers, such as geographic data or social network data.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Tune the epsilon and minPts parameters to achieve optimal clustering results. Compare DBSCAN’s performance with K-Means on the same dataset, particularly in handling noise and discovering clusters of arbitrary shape.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 9.4: Implementing Gaussian Mixture Models with Expectation-Maximization in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement Gaussian Mixture Models (GMM) in Rust using the Expectation-Maximization algorithm. Apply GMMs to a dataset with overlapping clusters, such as customer demographics or market segmentation.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Ensure that your implementation handles soft clustering by assigning probabilities to data points belonging to different clusters. Compare the results of GMMs with K-Means and analyze the benefits of probabilistic clustering.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 9.5: Evaluating Clustering Algorithms with Silhouette Score and Davies-Bouldin Index in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement the silhouette score and Davies-Bouldin index as evaluation metrics in Rust. Use these metrics to evaluate the clustering results from different algorithms (K-Means, DBSCAN, GMM) on a real-world dataset.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Compare the evaluation metrics across different clustering algorithms and analyze which algorithm produces the most meaningful clusters. Visualize the results to gain insights into the strengths and weaknesses of each clustering method.</p>
+        </div>
+    </div>
+    <p class="text-justify">Embrace the difficulty of these exercises as an opportunity to refine your skills and prepare yourself for tackling real-world challenges in machine learning via Rust.</p>
+</section>
+
+---

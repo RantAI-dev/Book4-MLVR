@@ -1518,21 +1518,67 @@ Embrace these challenges as opportunities to push the boundaries of your knowled
 These exercises are designed to be challenging and in-depth, requiring you to apply both theoretical knowledge and practical skills in Rust.
 </p>
 
-#### **Exercise 12.1:** Implementing Kernel Density Estimation (KDE) in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement KDE in Rust, focusing on the choice of kernel and bandwidth selection. Apply KDE to a dataset with a complex distribution, such as multimodal data, and visualize the estimated density.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different bandwidths and kernel functions, and analyze their impact on the quality of the density estimation. Compare the KDE results with a parametric density estimation method.</p>
-#### **Exercise 12.2:** Developing a Gaussian Mixture Model (GMM) in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a GMM in Rust using the Expectation-Maximization (EM) algorithm. Apply the GMM to a dataset with overlapping clusters and use it to generate new data points.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different numbers of components in the GMM, and analyze how this choice affects the model’s ability to fit the data. Evaluate the quality of the generated data using appropriate metrics.</p>
-#### **Exercise 12.3:** Building a Variational Autoencoder (VAE) in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a VAE in Rust, focusing on the encoder, decoder, and latent space. Use the VAE to generate new samples from a dataset like MNIST or CIFAR-10.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different architectures for the encoder and decoder, and analyze how these changes affect the quality of the generated samples. Evaluate the reconstruction error and the quality of the latent space.</p>
-#### **Exercise 12.4:** Implementing a Generative Adversarial Network (GAN) in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a GAN in Rust, focusing on the interaction between the generator and discriminator. Use the GAN to generate realistic images, and experiment with techniques to stabilize training.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Address challenges like mode collapse by experimenting with different architectures and training techniques. Evaluate the quality of the generated images using metrics like Inception Score (IS) and Frechet Inception Distance (FID).</p>
-#### **Exercise 12.5:** Evaluating Generative Models Using Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement evaluation metrics like log-likelihood, Inception Score (IS), and Frechet Inception Distance (FID) in Rust. Use these metrics to evaluate the performance of different generative models, such as VAEs and GANs.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Analyze the trade-offs between different evaluation metrics and determine the most suitable metric for various types of generative tasks. Visualize the evaluation results and interpret the performance of the models.</p>
-<p style="text-align: justify;">
-By completing these tasks, you will gain hands-on experience with density estimation and generative models, deepening your understanding of their implementation and application in machine learning.
-</p>
+---
+
+<section class="mt-5">
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 12.1: Implementing Kernel Density Estimation (KDE) in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement KDE in Rust, focusing on the choice of kernel and bandwidth selection. Apply KDE to a dataset with a complex distribution, such as multimodal data, and visualize the estimated density.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different bandwidths and kernel functions, and analyze their impact on the quality of the density estimation. Compare the KDE results with a parametric density estimation method.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 12.2: Developing a Gaussian Mixture Model (GMM) in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a GMM in Rust using the Expectation-Maximization (EM) algorithm. Apply the GMM to a dataset with overlapping clusters and use it to generate new data points.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different numbers of components in the GMM, and analyze how this choice affects the model’s ability to fit the data. Evaluate the quality of the generated data using appropriate metrics.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 12.3: Building a Variational Autoencoder (VAE) in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a VAE in Rust, focusing on the encoder, decoder, and latent space. Use the VAE to generate new samples from a dataset like MNIST or CIFAR-10.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different architectures for the encoder and decoder, and analyze how these changes affect the quality of the generated samples. Evaluate the reconstruction error and the quality of the latent space.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 12.4: Implementing a Generative Adversarial Network (GAN) in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a GAN in Rust, focusing on the interaction between the generator and discriminator. Use the GAN to generate realistic images, and experiment with techniques to stabilize training.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Address challenges like mode collapse by experimenting with different architectures and training techniques. Evaluate the quality of the generated images using metrics like Inception Score (IS) and Frechet Inception Distance (FID).</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 12.5: Evaluating Generative Models Using Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement evaluation metrics like log-likelihood, Inception Score (IS), and Frechet Inception Distance (FID) in Rust. Use these metrics to evaluate the performance of different generative models, such as VAEs and GANs.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Analyze the trade-offs between different evaluation metrics and determine the most suitable metric for various types of generative tasks. Visualize the evaluation results and interpret the performance of the models.</p>
+        </div>
+    </div>
+    <p class="text-justify">
+        By completing these tasks, you will gain hands-on experience with density estimation and generative models, deepening your understanding of their implementation and application in machine learning.
+    </p>
+</section>
+
+---

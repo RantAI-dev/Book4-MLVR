@@ -2590,25 +2590,57 @@ Each prompt encourages you to explore, analyze, and apply mathematical principle
 </p>
 
 ## 3.7.2. Hands On Practices
-<p style="text-align: justify;">
-These exercises are designed to be challenging and in-depth, requiring you to apply both mathematical theory and Rust programming skills to solve complex machine learning problems.
-</p>
+<p style="text-align: justify;">These exercises are designed to be challenging and in-depth, requiring you to apply both mathematical theory and Rust programming skills to solve complex machine learning problems.</p>
 
-#### **Exercise 3.1:** Advanced Matrix Operations and Decomposition Techniques in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement advanced matrix operations in Rust, including matrix multiplication, transposition, and inversion. Focus on implementing matrix decomposition techniques such as LU decomposition and Singular Value Decomposition (SVD). Apply these techniques to perform Principal Component Analysis (PCA) on a high-dimensional dataset.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Implement the matrix operations and decomposition from scratch without relying on external libraries, ensuring numerical stability and efficiency. Apply PCA to reduce the dimensionality of a complex dataset and analyze the results in terms of variance explained and data compression.</p>
-#### **Exercise 3.2:** Implementing and Optimizing Gradient Descent Algorithms in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Develop multiple variants of the gradient descent algorithm in Rust, including batch gradient descent, stochastic gradient descent (SGD), and mini-batch gradient descent. Apply these algorithms to train a deep neural network on a non-linear regression problem.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Implement the gradient descent algorithms with a focus on optimizing the learning rate, convergence criteria, and computational efficiency. Analyze the performance of each variant in terms of speed, accuracy, and convergence behavior. Discuss the trade-offs between the different methods and how they impact the training of complex models.</p>
-#### **Exercise 3.3:** Building Probabilistic Models Using Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a probabilistic model, such as a Naive Bayes classifier or a Gaussian Mixture Model (GMM), in Rust. Apply the model to a real-world classification problem, such as sentiment analysis or spam detection.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Implement the probabilistic model from scratch, including the calculation of probability distributions, likelihoods, and posterior probabilities. Evaluate the model's performance using cross-validation and analyze its strengths and weaknesses compared to other classification techniques. Optimize the implementation for large datasets, focusing on computational efficiency and memory management.</p>
-#### **Exercise 3.4:** Numerical Optimization and Root-Finding Algorithms in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement numerical optimization techniques in Rust, including the Newton-Raphson method and the bisection method, to solve complex non-linear equations. Apply these methods to optimize a machine learning model's loss function, such as in logistic regression or support vector machines.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Implement the optimization algorithms with a focus on ensuring convergence and handling edge cases where the function may not be well-behaved. Compare the performance of the different methods in terms of speed, accuracy, and robustness, and discuss the implications of numerical optimization in the context of machine learning.</p>
-#### **Exercise 3.5:** Graph Theory and Combinatorial Optimization in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement graph-based algorithms in Rust, such as Dijkstra’s shortest path algorithm and Kruskal’s minimum spanning tree algorithm. Apply these algorithms to a machine learning problem, such as clustering or feature selection, where the structure of the data can be represented as a graph.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Implement the graph algorithms from scratch, focusing on efficiency and scalability for large graphs. Apply the algorithms to a complex dataset, such as a social network or a biological network, and analyze the results in terms of clustering quality, feature selection, or community detection. Discuss the role of combinatorial optimization in solving these problems and the challenges of applying graph theory in machine learning.</p>
-<p style="text-align: justify;">
-By completing these tasks, you will develop a deep understanding of the mathematical foundations of machine learning and gain hands-on experience in implementing these concepts in Rust. Embrace the difficulty of these exercises as an opportunity to grow your expertise and prepare yourself for tackling real-world challenges in machine learning.
-</p>
+---
+
+<section class="mt-5">
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">Exercise 3.1: Advanced Matrix Operations and Decomposition Techniques in Rust</div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement advanced matrix operations in Rust, including matrix multiplication, transposition, and inversion. Focus on implementing matrix decomposition techniques such as LU decomposition and Singular Value Decomposition (SVD). Apply these techniques to perform Principal Component Analysis (PCA) on a high-dimensional dataset.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Implement the matrix operations and decomposition from scratch without relying on external libraries, ensuring numerical stability and efficiency. Apply PCA to reduce the dimensionality of a complex dataset and analyze the results in terms of variance explained and data compression.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">Exercise 3.2: Implementing and Optimizing Gradient Descent Algorithms in Rust</div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Develop multiple variants of the gradient descent algorithm in Rust, including batch gradient descent, stochastic gradient descent (SGD), and mini-batch gradient descent. Apply these algorithms to train a deep neural network on a non-linear regression problem.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Implement the gradient descent algorithms with a focus on optimizing the learning rate, convergence criteria, and computational efficiency. Analyze the performance of each variant in terms of speed, accuracy, and convergence behavior. Discuss the trade-offs between the different methods and how they impact the training of complex models.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">Exercise 3.3: Building Probabilistic Models Using Rust</div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a probabilistic model, such as a Naive Bayes classifier or a Gaussian Mixture Model (GMM), in Rust. Apply the model to a real-world classification problem, such as sentiment analysis or spam detection.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Implement the probabilistic model from scratch, including the calculation of probability distributions, likelihoods, and posterior probabilities. Evaluate the model's performance using cross-validation and analyze its strengths and weaknesses compared to other classification techniques. Optimize the implementation for large datasets, focusing on computational efficiency and memory management.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">Exercise 3.4: Numerical Optimization and Root-Finding Algorithms in Rust</div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement numerical optimization techniques in Rust, including the Newton-Raphson method and the bisection method, to solve complex non-linear equations. Apply these methods to optimize a machine learning model's loss function, such as in logistic regression or support vector machines.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Implement the optimization algorithms with a focus on ensuring convergence and handling edge cases where the function may not be well-behaved. Compare the performance of the different methods in terms of speed, accuracy, and robustness, and discuss the implications of numerical optimization in the context of machine learning.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">Exercise 3.5: Graph Theory and Combinatorial Optimization in Rust</div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement graph-based algorithms in Rust, such as Dijkstra’s shortest path algorithm and Kruskal’s minimum spanning tree algorithm. Apply these algorithms to a machine learning problem, such as clustering or feature selection, where the structure of the data can be represented as a graph.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Implement the graph algorithms from scratch, focusing on efficiency and scalability for large graphs. Apply the algorithms to a complex dataset, such as a social network or a biological network, and analyze the results in terms of clustering quality, feature selection, or community detection. Discuss the role of combinatorial optimization in solving these problems and the challenges of applying graph theory in machine learning.</p>
+        </div>
+    </div>
+    <p class="text-justify">By completing these tasks, you will develop a deep understanding of the mathematical foundations of machine learning and gain hands-on experience in implementing these concepts in Rust. Embrace the difficulty of these exercises as an opportunity to grow your expertise and prepare yourself for tackling real-world challenges in machine learning.</p>
+</section>
+
+---

@@ -912,21 +912,67 @@ Each prompt encourages you to think critically about the role of XAI in modern A
 These exercises are designed to be challenging and in-depth, requiring you to apply both theoretical knowledge and practical skills in Rust.
 </p>
 
-#### **Exercise 23.1:** Implementing LIME and SHAP for Model Explainability in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement LIME and SHAP in Rust to explain the predictions of a complex machine learning model. Apply these techniques to a real-world dataset and analyze the explanations provided.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different configurations of LIME and SHAP, and evaluate their effectiveness in providing clear and accurate explanations.</p>
-#### **Exercise 23.2:** Developing Visualization Tools for Model Interpretability in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement visualization tools in Rust, such as feature importance plots, decision paths, and ICE plots, to explore and explain the behavior of a machine learning model.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Create interactive visualizations that allow users to explore different aspects of the model's decisions and evaluate the impact of these visualizations on interpretability.</p>
-#### **Exercise 23.3:** Implementing Explainability Techniques for Deep Learning Models in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement explainability techniques for deep learning models in Rust, focusing on methods like saliency maps and gradient-based explanations. Apply these techniques to a neural network trained on a complex dataset.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Compare the effectiveness of different explainability techniques in making the deep learning model more interpretable, and evaluate their impact on model transparency.</p>
-#### **Exercise 23.4:** Developing Fairness-Aware Explainability Techniques in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement fairness-aware explainability techniques in Rust, focusing on detecting and mitigating biases in a machine learning model. Apply these techniques to a dataset with potential biases and evaluate their impact on fairness.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different bias detection methods and evaluate the effectiveness of explainability techniques in reducing bias and improving model fairness.</p>
-#### **Exercise 23.5:** Implementing Counterfactual Explanations in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement counterfactual explanations in Rust to provide insights into model decisions by showing alternative outcomes. Apply these explanations to a machine learning model trained on a real-world dataset.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different approaches to generating counterfactual explanations and evaluate their impact on user understanding and trust in the model.</p>
-<p style="text-align: justify;">
-By completing these tasks, you will gain hands-on experience with Explainable AI and Interpretability, deepening your understanding of their implementation and application in machine learning.
-</p>
+---
+
+<section class="mt-5">
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 23.1: Implementing LIME and SHAP for Model Explainability in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement LIME and SHAP in Rust to explain the predictions of a complex machine learning model. Apply these techniques to a real-world dataset and analyze the explanations provided.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different configurations of LIME and SHAP, and evaluate their effectiveness in providing clear and accurate explanations.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 23.2: Developing Visualization Tools for Model Interpretability in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement visualization tools in Rust, such as feature importance plots, decision paths, and ICE plots, to explore and explain the behavior of a machine learning model.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Create interactive visualizations that allow users to explore different aspects of the model's decisions and evaluate the impact of these visualizations on interpretability.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 23.3: Implementing Explainability Techniques for Deep Learning Models in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement explainability techniques for deep learning models in Rust, focusing on methods like saliency maps and gradient-based explanations. Apply these techniques to a neural network trained on a complex dataset.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Compare the effectiveness of different explainability techniques in making the deep learning model more interpretable, and evaluate their impact on model transparency.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 23.4: Developing Fairness-Aware Explainability Techniques in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement fairness-aware explainability techniques in Rust, focusing on detecting and mitigating biases in a machine learning model. Apply these techniques to a dataset with potential biases and evaluate their impact on fairness.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different bias detection methods and evaluate the effectiveness of explainability techniques in reducing bias and improving model fairness.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 23.5: Implementing Counterfactual Explanations in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement counterfactual explanations in Rust to provide insights into model decisions by showing alternative outcomes. Apply these explanations to a machine learning model trained on a real-world dataset.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different approaches to generating counterfactual explanations and evaluate their impact on user understanding and trust in the model.</p>
+        </div>
+    </div>
+    <p class="text-justify">
+        By completing these tasks, you will gain hands-on experience with Explainable AI and Interpretability, deepening your understanding of their implementation and application in machine learning.
+    </p>
+</section>
+
+---

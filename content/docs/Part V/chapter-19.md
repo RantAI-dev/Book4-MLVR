@@ -878,21 +878,67 @@ These prompts are designed to challenge your understanding of Model Evaluation a
 These exercises are designed to be challenging and in-depth, requiring you to apply both theoretical knowledge and practical skills in Rust.
 </p>
 
-#### **Exercise 19.1:** Implementing Cross-Validation Techniques in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement various cross-validation techniques in Rust, including k-fold, stratified, and leave-one-out cross-validation. Apply these techniques to a machine learning model and compare the results in terms of model stability and generalization.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different values of k in k-fold cross-validation and analyze their impact on model performance and computational efficiency.</p>
-#### **Exercise 19.2:** Developing Hyperparameter Tuning Strategies in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement hyperparameter tuning strategies in Rust, focusing on grid search, random search, and Bayesian optimization. Apply these strategies to a complex machine learning model and optimize its performance.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Compare the efficiency and effectiveness of each tuning strategy, and analyze the trade-offs between exhaustive search methods and stochastic search methods.</p>
-#### **Exercise 19.3:** Evaluating Classification Models Using Advanced Metrics in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement advanced evaluation metrics for classification models in Rust, such as ROC-AUC, precision-recall curves, and F1-score. Apply these metrics to models trained on imbalanced datasets and evaluate their effectiveness in capturing model performance.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different threshold settings for classification models and analyze their impact on metrics like precision, recall, and F1-score.</p>
-#### **Exercise 19.4:** Implementing Ensemble Methods for Model Selection in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement ensemble methods in Rust, focusing on techniques like bagging, boosting, and stacking. Apply these methods to a machine learning task and evaluate their impact on model accuracy and robustness.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Compare the performance of individual models versus ensemble methods, and analyze the benefits and challenges of using ensembles in different scenarios.</p>
-#### **Exercise 19.5:** Developing Model Calibration Techniques in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement model calibration techniques in Rust, such as Platt scaling and isotonic regression, to improve the reliability of probabilistic predictions. Apply these techniques to a classification model and evaluate their impact on predicted probabilities.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different calibration methods and analyze their effectiveness in improving model confidence and reducing overconfidence in predictions.</p>
-<p style="text-align: justify;">
-By completing these tasks, you will gain hands-on experience with Model Evaluation and Tuning, deepening your understanding of their implementation and application in machine learning.
-</p>
+---
+
+<section class="mt-5">
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 19.1: Implementing Cross-Validation Techniques in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement various cross-validation techniques in Rust, including k-fold, stratified, and leave-one-out cross-validation. Apply these techniques to a machine learning model and compare the results in terms of model stability and generalization.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different values of k in k-fold cross-validation and analyze their impact on model performance and computational efficiency.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 19.2: Developing Hyperparameter Tuning Strategies in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement hyperparameter tuning strategies in Rust, focusing on grid search, random search, and Bayesian optimization. Apply these strategies to a complex machine learning model and optimize its performance.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Compare the efficiency and effectiveness of each tuning strategy, and analyze the trade-offs between exhaustive search methods and stochastic search methods.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 19.3: Evaluating Classification Models Using Advanced Metrics in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement advanced evaluation metrics for classification models in Rust, such as ROC-AUC, precision-recall curves, and F1-score. Apply these metrics to models trained on imbalanced datasets and evaluate their effectiveness in capturing model performance.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different threshold settings for classification models and analyze their impact on metrics like precision, recall, and F1-score.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 19.4: Implementing Ensemble Methods for Model Selection in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement ensemble methods in Rust, focusing on techniques like bagging, boosting, and stacking. Apply these methods to a machine learning task and evaluate their impact on model accuracy and robustness.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Compare the performance of individual models versus ensemble methods, and analyze the benefits and challenges of using ensembles in different scenarios.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 19.5: Developing Model Calibration Techniques in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement model calibration techniques in Rust, such as Platt scaling and isotonic regression, to improve the reliability of probabilistic predictions. Apply these techniques to a classification model and evaluate their impact on predicted probabilities.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different calibration methods and analyze their effectiveness in improving model confidence and reducing overconfidence in predictions.</p>
+        </div>
+    </div>
+    <p class="text-justify">
+        By completing these tasks, you will gain hands-on experience with Model Evaluation and Tuning, deepening your understanding of their implementation and application in machine learning.
+    </p>
+</section>
+
+---

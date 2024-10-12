@@ -1085,21 +1085,67 @@ Each prompt encourages you to think critically about the ethical implications of
 These exercises are designed to be challenging and in-depth, requiring you to apply both theoretical knowledge and practical skills in Rust.
 </p>
 
-#### **Exercise 25.1:** Implementing Fairness Metrics in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement and compare different fairness metrics such as demographic parity, equalized odds, and predictive parity in a Rust-based machine learning model. Evaluate how these metrics affect the model's fairness and overall performance.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different datasets and fairness criteria, and analyze the trade-offs between fairness and model accuracy.</p>
-#### **Exercise 25.2:** Detecting and Mitigating Bias in Rust-Based Models
-- <p style="text-align: justify;"><strong>Task</strong>: Implement bias detection techniques in Rust to identify biases in a dataset. Use re-sampling, re-weighting, or algorithmic adjustments to mitigate bias and evaluate the impact on model outcomes.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with various bias mitigation techniques and assess their effectiveness in creating a fairer model.</p>
-#### **Exercise 25.3:** Enhancing Transparency and Explainability in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement transparency and explainability features in a Rust-based machine learning model, such as feature importance analysis, model simplification, and generating user-friendly explanations. Assess how these features improve model interpretability.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Explore different explainability techniques and evaluate their impact on user trust and understanding.</p>
-#### **Exercise 25.4:** Ensuring Accountability in AI Models Using Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement accountability mechanisms in Rust, including logging, audit trails, and version control, to ensure that AI decisions are traceable and that responsibility can be assigned. Apply these features to a real-world machine learning project.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different accountability strategies and evaluate their effectiveness in ensuring responsible AI development.</p>
-#### **Exercise 25.5:** Implementing Privacy-Preserving Techniques in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement privacy-preserving techniques such as differential privacy and secure multi-party computation in a Rust-based machine learning model. Assess how these techniques protect user data while maintaining model performance.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different privacy-preserving methods and evaluate their impact on data protection and ethical considerations.</p>
-<p style="text-align: justify;">
-By completing these tasks, you will gain hands-on experience with Ethics and Fairness in Machine Learning, deepening your understanding of their implementation and application in real-world environments.
-</p>
+---
+
+<section class="mt-5">
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 25.1: Implementing Fairness Metrics in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement and compare different fairness metrics such as demographic parity, equalized odds, and predictive parity in a Rust-based machine learning model. Evaluate how these metrics affect the model's fairness and overall performance.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different datasets and fairness criteria, and analyze the trade-offs between fairness and model accuracy.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 25.2: Detecting and Mitigating Bias in Rust-Based Models
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement bias detection techniques in Rust to identify biases in a dataset. Use re-sampling, re-weighting, or algorithmic adjustments to mitigate bias and evaluate the impact on model outcomes.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with various bias mitigation techniques and assess their effectiveness in creating a fairer model.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 25.3: Enhancing Transparency and Explainability in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement transparency and explainability features in a Rust-based machine learning model, such as feature importance analysis, model simplification, and generating user-friendly explanations. Assess how these features improve model interpretability.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Explore different explainability techniques and evaluate their impact on user trust and understanding.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 25.4: Ensuring Accountability in AI Models Using Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement accountability mechanisms in Rust, including logging, audit trails, and version control, to ensure that AI decisions are traceable and that responsibility can be assigned. Apply these features to a real-world machine learning project.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different accountability strategies and evaluate their effectiveness in ensuring responsible AI development.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 25.5: Implementing Privacy-Preserving Techniques in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement privacy-preserving techniques such as differential privacy and secure multi-party computation in a Rust-based machine learning model. Assess how these techniques protect user data while maintaining model performance.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different privacy-preserving methods and evaluate their impact on data protection and ethical considerations.</p>
+        </div>
+    </div>
+    <p class="text-justify">
+        By completing these tasks, you will gain hands-on experience with Ethics and Fairness in Machine Learning, deepening your understanding of their implementation and application in real-world environments.
+    </p>
+</section>
+
+---

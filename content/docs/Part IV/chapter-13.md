@@ -1124,21 +1124,67 @@ By engaging with these questions, you will deepen your knowledge of the theory, 
 These exercises are designed to be challenging and in-depth, requiring you to apply both theoretical knowledge and practical skills in Rust.
 </p>
 
-#### **Exercise 13.1:** Implementing a Bayesian Network in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a Bayesian Network in Rust, focusing on constructing the network and performing inference to calculate joint probabilities. Apply the network to a dataset with known conditional dependencies, such as a medical diagnosis dataset.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different network structures and analyze how changes in the structure affect the accuracy and efficiency of inference.</p>
-#### **Exercise 13.2:** Developing a Markov Network for Image Segmentation in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a Markov Network in Rust, focusing on modeling spatial dependencies in image data. Apply the network to an image segmentation task, such as segmenting objects in a scene.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different clique structures and inference methods, such as belief propagation, to optimize the segmentation results.</p>
-#### **Exercise 13.3:** Implementing Exact Inference Using Variable Elimination in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement the variable elimination algorithm for exact inference in PGMs using Rust. Apply the algorithm to a complex Bayesian Network and analyze its performance in terms of computational efficiency and accuracy.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different variable elimination orders to minimize computational complexity and improve inference speed.</p>
-#### **Exercise 13.4:** Developing Approximate Inference Using Gibbs Sampling in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement Gibbs sampling in Rust for approximate inference in a large-scale Markov Network. Apply the method to a real-world dataset, such as social network data, and compare the accuracy and efficiency of the results with exact inference methods.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different sampling strategies and analyze their impact on the convergence rate and accuracy of the inference.</p>
-#### **Exercise 13.5:** Learning the Structure of a PGM from Data Using Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a structure learning algorithm in Rust for a PGM, focusing on determining the optimal graph structure from a dataset. Apply the algorithm to a real-world dataset, such as financial or healthcare data, and evaluate the accuracy of the learned structure.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different scoring methods and constraints to improve the accuracy and interpretability of the learned structure.</p>
-<p style="text-align: justify;">
-By completing these tasks, you will gain hands-on experience with Probabilistic Graphical Models, deepening your understanding of their implementation and application in machine learning.
-</p>
+---
+
+<section class="mt-5">
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 13.1: Implementing a Bayesian Network in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a Bayesian Network in Rust, focusing on constructing the network and performing inference to calculate joint probabilities. Apply the network to a dataset with known conditional dependencies, such as a medical diagnosis dataset.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different network structures and analyze how changes in the structure affect the accuracy and efficiency of inference.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 13.2: Developing a Markov Network for Image Segmentation in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a Markov Network in Rust, focusing on modeling spatial dependencies in image data. Apply the network to an image segmentation task, such as segmenting objects in a scene.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different clique structures and inference methods, such as belief propagation, to optimize the segmentation results.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 13.3: Implementing Exact Inference Using Variable Elimination in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement the variable elimination algorithm for exact inference in PGMs using Rust. Apply the algorithm to a complex Bayesian Network and analyze its performance in terms of computational efficiency and accuracy.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different variable elimination orders to minimize computational complexity and improve inference speed.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 13.4: Developing Approximate Inference Using Gibbs Sampling in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement Gibbs sampling in Rust for approximate inference in a large-scale Markov Network. Apply the method to a real-world dataset, such as social network data, and compare the accuracy and efficiency of the results with exact inference methods.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different sampling strategies and analyze their impact on the convergence rate and accuracy of the inference.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 13.5: Learning the Structure of a PGM from Data Using Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a structure learning algorithm in Rust for a PGM, focusing on determining the optimal graph structure from a dataset. Apply the algorithm to a real-world dataset, such as financial or healthcare data, and evaluate the accuracy of the learned structure.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different scoring methods and constraints to improve the accuracy and interpretability of the learned structure.</p>
+        </div>
+    </div>
+    <p class="text-justify">
+        By completing these tasks, you will gain hands-on experience with Probabilistic Graphical Models, deepening your understanding of their implementation and application in machine learning.
+    </p>
+</section>
+
+---

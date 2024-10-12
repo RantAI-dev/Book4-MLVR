@@ -1036,21 +1036,65 @@ Embrace these challenges as a way to expand your expertise and apply your knowle
 These exercises are designed to be challenging and in-depth, requiring you to apply both theoretical knowledge and practical skills in Rust.
 </p>
 
-#### **Exercise 8.1:** Implementing a Feedforward Neural Network from Scratch in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a simple feedforward neural network in Rust, focusing on the architecture of neurons, layers, and activation functions. Apply your network to a binary classification task and evaluate its performance.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Ensure that your implementation handles various activation functions and is optimized for performance. Experiment with different network architectures and analyze their impact on classification accuracy.</p>
-#### **Exercise 8.2:** Developing and Testing Backpropagation with Gradient Descent in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement backpropagation in Rust, integrating it with gradient descent to train a neural network on a regression problem. Experiment with different loss functions and learning rates to optimize model performance.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Optimize your implementation for speed and accuracy, particularly when dealing with large datasets. Compare the performance of different loss functions and learning rates and analyze their effects on model convergence.</p>
-#### **Exercise 8.3:** Implementing Regularization and Normalization Techniques in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement L2 regularization, dropout, and batch normalization in Rust, and apply them to a neural network model. Test these techniques on a dataset prone to overfitting, such as a small, noisy dataset, and evaluate their effectiveness.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Ensure that your implementation efficiently handles regularization and normalization while maintaining model performance. Experiment with different levels of regularization and dropout rates and analyze their impact on overfitting.</p>
-#### **Exercise 8.4:** Building and Training a Convolutional Neural Network (CNN) in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a CNN in Rust, focusing on the architecture of convolutional layers, pooling layers, and fully connected layers. Apply your CNN to an image classification task, such as the MNIST dataset, and evaluate its performance.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Optimize your CNN for performance, particularly when dealing with large images and deep architectures. Experiment with different convolutional architectures and pooling strategies and analyze their impact on classification accuracy.</p>
-#### **Exercise 8.5:** Implementing Hyperparameter Tuning for Neural Networks in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a hyperparameter tuning pipeline in Rust, focusing on optimizing parameters like learning rate, batch size, and number of layers. Use techniques such as grid search or random search to find the best hyperparameters for a neural network model on a complex dataset.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Optimize your pipeline for computational efficiency, particularly when tuning multiple hyperparameters simultaneously. Analyze the impact of different hyperparameter settings on model accuracy and visualize the results to gain insights into the tuning process.</p>
-<p style="text-align: justify;">
-Embrace the difficulty of these exercises as an opportunity to refine your skills and prepare yourself for tackling real-world challenges in machine learning via Rust.
-</p>
+---
+
+<section class="mt-5">
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 8.1: Implementing a Feedforward Neural Network from Scratch in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a simple feedforward neural network in Rust, focusing on the architecture of neurons, layers, and activation functions. Apply your network to a binary classification task and evaluate its performance.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Ensure that your implementation handles various activation functions and is optimized for performance. Experiment with different network architectures and analyze their impact on classification accuracy.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 8.2: Developing and Testing Backpropagation with Gradient Descent in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement backpropagation in Rust, integrating it with gradient descent to train a neural network on a regression problem. Experiment with different loss functions and learning rates to optimize model performance.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Optimize your implementation for speed and accuracy, particularly when dealing with large datasets. Compare the performance of different loss functions and learning rates and analyze their effects on model convergence.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 8.3: Implementing Regularization and Normalization Techniques in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement L2 regularization, dropout, and batch normalization in Rust, and apply them to a neural network model. Test these techniques on a dataset prone to overfitting, such as a small, noisy dataset, and evaluate their effectiveness.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Ensure that your implementation efficiently handles regularization and normalization while maintaining model performance. Experiment with different levels of regularization and dropout rates and analyze their impact on overfitting.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 8.4: Building and Training a Convolutional Neural Network (CNN) in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a CNN in Rust, focusing on the architecture of convolutional layers, pooling layers, and fully connected layers. Apply your CNN to an image classification task, such as the MNIST dataset, and evaluate its performance.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Optimize your CNN for performance, particularly when dealing with large images and deep architectures. Experiment with different convolutional architectures and pooling strategies and analyze their impact on classification accuracy.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 8.5: Implementing Hyperparameter Tuning for Neural Networks in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a hyperparameter tuning pipeline in Rust, focusing on optimizing parameters like learning rate, batch size, and number of layers. Use techniques such as grid search or random search to find the best hyperparameters for a neural network model on a complex dataset.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Optimize your pipeline for computational efficiency, particularly when tuning multiple hyperparameters simultaneously. Analyze the impact of different hyperparameter settings on model accuracy and visualize the results to gain insights into the tuning process.</p>
+        </div>
+    </div>
+    <p class="text-justify">Embrace the difficulty of these exercises as an opportunity to refine your skills and prepare yourself for tackling real-world challenges in machine learning via Rust.</p>
+</section>
+
+---

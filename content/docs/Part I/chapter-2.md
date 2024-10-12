@@ -624,30 +624,67 @@ As you explore these topics, you’ll gain insights that are critical for master
 </p>
 
 ## 2.7.2. Hands On Practices
-<p style="text-align: justify;">
-These exercises are designed to be rigorous and challenging, pushing your skills and understanding of Rust to the next level. By completing these tasks, you'll gain deep insights into the practical applications of Rust in machine learning, along with the experience of tackling complex, real-world problems.
-</p>
+<p style="text-align: justify;">These exercises are designed to be rigorous and challenging, pushing your skills and understanding of Rust to the next level. By completing these tasks, you'll gain deep insights into the practical applications of Rust in machine learning, along with the experience of tackling complex, real-world problems.</p>
 
-#### **Exercise 2.1:** Ownership, Borrowing, and Lifetimes in a Rust-Based Data Structure
-- <p style="text-align: justify;"><strong>Task</strong>: Design and implement a complex, custom data structure in Rust, such as a self-balancing binary search tree (e.g., AVL tree) or a graph with weighted edges and cycles. The implementation must strictly adhere to Rust’s ownership, borrowing, and lifetime rules to ensure memory safety and efficiency.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Implement advanced functionality such as rebalancing the tree or finding the shortest path in the graph using Dijkstra's algorithm. Carefully manage the lifetimes of nodes or graph edges, especially in cases where nodes need to borrow data from one another. Ensure that all operations, such as insertion, deletion, and traversal, respect Rust's borrowing rules and avoid common pitfalls like dangling pointers or data races.</p>
-- <p style="text-align: justify;"><strong>Analysis</strong>: After implementing the data structure, analyze its performance in terms of time complexity and memory usage. Reflect on how Rust’s ownership model influenced your design choices, particularly in ensuring thread safety and preventing memory leaks or race conditions.</p>
-#### **Exercise 2.2:** Comprehensive Error Handling and Recovery in a High-Throughput Rust Application
-- <p style="text-align: justify;"><strong>Task</strong>: Develop a high-throughput Rust application, such as a web server or a parallel file processing system, that requires robust error handling and recovery mechanisms. The application should handle various types of errors gracefully, ensuring that it can recover from failures without crashing or corrupting data.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Implement complex error handling using Rust’s Result and Option types, including chaining and custom error types. Develop a strategy for recovering from errors, such as retry logic, logging, or fallback operations. Incorporate error handling into both synchronous and asynchronous operations, using Rust’s async/await syntax where appropriate.</p>
-- <p style="text-align: justify;"><strong>Analysis</strong>: Stress-test the application under high load conditions, inducing errors intentionally (e.g., by simulating network failures, corrupted files, or resource exhaustion). Evaluate how well the application handles these scenarios and whether the error recovery mechanisms you implemented maintain the application's stability and performance.</p>
-#### **Exercise 2.3:** Parallel and Asynchronous Data Processing Pipeline in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Build a sophisticated data processing pipeline in Rust that leverages both parallel and asynchronous processing. The pipeline should handle a large volume of data, such as processing a real-time data stream (e.g., financial market data) or a massive dataset stored in a distributed system.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Implement a multi-stage pipeline where each stage processes data concurrently, using Rust’s async/await for IO-bound tasks and threads for CPU-bound tasks. Manage complex dependencies between stages, ensuring that data is correctly passed and synchronized without introducing deadlocks or data races. Use channels or other concurrency primitives to coordinate between threads, and implement backpressure mechanisms to handle varying processing speeds between stages.</p>
-- <p style="text-align: justify;"><strong>Analysis</strong>: Evaluate the performance of the pipeline, particularly in terms of throughput, latency, and resource utilization. Discuss the challenges you faced in managing concurrency in Rust and how the language’s features (e.g., ownership model, lifetimes) helped or complicated the implementation. Consider the trade-offs between parallelism and concurrency, and reflect on how Rust’s tools for managing these aspects influenced the design of your pipeline.</p>
-#### **Exercise 2.4:** Deep Integration of Rust with Python and C in a Hybrid Machine Learning System
-- <p style="text-align: justify;"><strong>Task</strong>: Design and implement a hybrid machine learning system that integrates Rust, Python, and C to leverage the strengths of each language. The system should involve a Rust component that performs performance-critical computations (e.g., matrix operations, optimization routines), a Python interface for ease of use and flexibility, and a C library for specialized functionality (e.g., hardware acceleration).</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Implement the Rust component and expose its functionality to Python using PyO3. Integrate a C library with Rust using Foreign Function Interface (FFI), ensuring that the Rust code safely interacts with the C code and handles any potential errors or undefined behavior. Develop a Python wrapper that seamlessly integrates the Rust and C components, allowing end-users to interact with the system as if it were a pure Python library.</p>
-- <p style="text-align: justify;"><strong>Analysis</strong>: Conduct performance benchmarks to compare the Rust and C components against equivalent Python implementations. Evaluate the complexity and challenges of integrating Rust with both Python and C, particularly in managing memory safety, error handling, and data interoperability. Reflect on the benefits and drawbacks of using a multi-language approach in a machine learning system, and discuss the potential scalability and maintainability issues that may arise.</p>
-#### **Exercise 2.5:** High-Performance Rust Crate with Complex Dependencies
-- <p style="text-align: justify;"><strong>Task</strong>: Develop a high-performance Rust crate designed for a specific machine learning task, such as implementing a custom loss function for deep learning models or an optimized algorithm for feature selection. The crate should include complex dependencies, both within the Rust ecosystem and potentially external C/C++ libraries.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Design the crate to be both performant and easy to use, with a focus on efficient memory management and minimal runtime overhead. Write comprehensive unit tests and integration tests to ensure the crate's correctness and robustness. Implement benchmarks to measure the crate's performance against existing solutions, identifying areas where Rust's unique features provide a competitive advantage.</p>
-- <p style="text-align: justify;"><strong>Analysis</strong>: After developing the crate, evaluate the trade-offs between performance, usability, and complexity. Reflect on the process of managing dependencies, particularly when integrating external libraries, and discuss how Cargo facilitated or complicated this process. Publish the crate to crates.io and analyze the feedback from the Rust community, considering how the crate could be improved or extended based on real-world usage.</p>
-<p style="text-align: justify;">
-The challenges presented here will not only enhance your technical abilities but also prepare you for the demands of advanced machine learning systems where efficiency, safety, and scalability are paramount. Remember, the journey to mastery is not easy, but the rewards are well worth the effort. Embrace the challenges, learn from the difficulties, and let your curiosity drive you to achieve excellence in Rust and machine learning.
-</p>
+---
+
+<section class="mt-5">
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">Exercise 2.1: Ownership, Borrowing, and Lifetimes in a Rust-Based Data Structure</div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Design and implement a complex, custom data structure in Rust, such as a self-balancing binary search tree (e.g., AVL tree) or a graph with weighted edges and cycles. The implementation must strictly adhere to Rust’s ownership, borrowing, and lifetime rules to ensure memory safety and efficiency.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Implement advanced functionality such as rebalancing the tree or finding the shortest path in the graph using Dijkstra's algorithm. Carefully manage the lifetimes of nodes or graph edges, especially in cases where nodes need to borrow data from one another. Ensure that all operations, such as insertion, deletion, and traversal, respect Rust's borrowing rules and avoid common pitfalls like dangling pointers or data races.</p>
+            <p><strong>Analysis:</strong></p>
+            <p class="text-justify">After implementing the data structure, analyze its performance in terms of time complexity and memory usage. Reflect on how Rust’s ownership model influenced your design choices, particularly in ensuring thread safety and preventing memory leaks or race conditions.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">Exercise 2.2: Comprehensive Error Handling and Recovery in a High-Throughput Rust Application</div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Develop a high-throughput Rust application, such as a web server or a parallel file processing system, that requires robust error handling and recovery mechanisms. The application should handle various types of errors gracefully, ensuring that it can recover from failures without crashing or corrupting data.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Implement complex error handling using Rust’s Result and Option types, including chaining and custom error types. Develop a strategy for recovering from errors, such as retry logic, logging, or fallback operations. Incorporate error handling into both synchronous and asynchronous operations, using Rust’s async/await syntax where appropriate.</p>
+            <p><strong>Analysis:</strong></p>
+            <p class="text-justify">Stress-test the application under high load conditions, inducing errors intentionally (e.g., by simulating network failures, corrupted files, or resource exhaustion). Evaluate how well the application handles these scenarios and whether the error recovery mechanisms you implemented maintain the application's stability and performance.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">Exercise 2.3: Parallel and Asynchronous Data Processing Pipeline in Rust</div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Build a sophisticated data processing pipeline in Rust that leverages both parallel and asynchronous processing. The pipeline should handle a large volume of data, such as processing a real-time data stream (e.g., financial market data) or a massive dataset stored in a distributed system.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Implement a multi-stage pipeline where each stage processes data concurrently, using Rust’s async/await for IO-bound tasks and threads for CPU-bound tasks. Manage complex dependencies between stages, ensuring that data is correctly passed and synchronized without introducing deadlocks or data races. Use channels or other concurrency primitives to coordinate between threads, and implement backpressure mechanisms to handle varying processing speeds between stages.</p>
+            <p><strong>Analysis:</strong></p>
+            <p class="text-justify">Evaluate the performance of the pipeline, particularly in terms of throughput, latency, and resource utilization. Discuss the challenges you faced in managing concurrency in Rust and how the language’s features (e.g., ownership model, lifetimes) helped or complicated the implementation. Consider the trade-offs between parallelism and concurrency, and reflect on how Rust’s tools for managing these aspects influenced the design of your pipeline.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">Exercise 2.4: Deep Integration of Rust with Python and C in a Hybrid Machine Learning System</div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Design and implement a hybrid machine learning system that integrates Rust, Python, and C to leverage the strengths of each language. The system should involve a Rust component that performs performance-critical computations (e.g., matrix operations, optimization routines), a Python interface for ease of use and flexibility, and a C library for specialized functionality (e.g., hardware acceleration).</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Implement the Rust component and expose its functionality to Python using PyO3. Integrate a C library with Rust using Foreign Function Interface (FFI), ensuring that the Rust code safely interacts with the C code and handles any potential errors or undefined behavior. Develop a Python wrapper that seamlessly integrates the Rust and C components, allowing end-users to interact with the system as if it were a pure Python library.</p>
+            <p><strong>Analysis:</strong></p>
+            <p class="text-justify">Conduct performance benchmarks to compare the Rust and C components against equivalent Python implementations. Evaluate the complexity and challenges of integrating Rust with both Python and C, particularly in managing memory safety, error handling, and data interoperability. Reflect on the benefits and drawbacks of using a multi-language approach in a machine learning system, and discuss the potential scalability and maintainability issues that may arise.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">Exercise 2.5: High-Performance Rust Crate with Complex Dependencies</div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Develop a high-performance Rust crate designed for a specific machine learning task, such as implementing a custom loss function for deep learning models or an optimized algorithm for feature selection. The crate should include complex dependencies, both within the Rust ecosystem and potentially external C/C++ libraries.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Design the crate to be both performant and easy to use, with a focus on efficient memory management and minimal runtime overhead. Write comprehensive unit tests and integration tests to ensure the crate's correctness and robustness. Implement benchmarks to measure the crate's performance against existing solutions, identifying areas where Rust's unique features provide a competitive advantage.</p>
+            <p><strong>Analysis:</strong></p>
+            <p class="text-justify">After developing the crate, evaluate the trade-offs between performance, usability, and complexity. Reflect on the process of managing dependencies, particularly when integrating external libraries, and discuss how Cargo facilitated or complicated this process. Publish the crate to crates.io and analyze the feedback from the Rust community, considering how the crate could be improved or extended based on real-world usage.</p>
+        </div>
+    </div>
+    <p class="text-justify">The challenges presented here will not only enhance your technical abilities but also prepare you for the demands of advanced machine learning systems where efficiency, safety, and scalability are paramount. Remember, the journey to mastery is not easy, but the rewards are well worth the effort. Embrace the challenges, learn from the difficulties, and let your curiosity drive you to achieve excellence in Rust and machine learning.</p>
+</section>
+
+---

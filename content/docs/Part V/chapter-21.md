@@ -860,21 +860,67 @@ Each prompt encourages you to think critically about the deployment process and 
 By completing these tasks, you will gain hands-on experience with Deploying Machine Learning Models, deepening your understanding of their implementation and application in real-world environments.
 </p>
 
-#### **Exercise 21.1:** Implementing a CI/CD Pipeline for Machine Learning Models in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a Continuous Integration and Continuous Deployment (CI/CD) pipeline for a Rust-based machine learning model. Automate the processes of testing, validation, and deployment using tools like GitHub Actions, Jenkins, or GitLab CI.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different CI/CD workflows and analyze their impact on deployment speed, reliability, and rollback capabilities.</p>
-#### **Exercise 21.2:** Developing a Model Serving API in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a model serving API in Rust using a web framework like Actix or Rocket. Deploy the API to a production environment for real-time predictions, ensuring low-latency and high-throughput responses.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different API protocols, such as REST and gRPC, and analyze their impact on latency, throughput, and scalability.</p>
-#### **Exercise 21.3:** Implementing Monitoring and Logging for Deployed Models in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement monitoring and logging for a deployed Rust-based machine learning model using tools like Prometheus, Grafana, and Elasticsearch. Track key metrics such as latency, throughput, and error rates, and set up alerts for anomalies.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different monitoring strategies, such as monitoring model drift or performance degradation, and analyze their effectiveness in maintaining model reliability.</p>
-#### **Exercise 21.4:** Deploying a Machine Learning Model in a Multi-Cloud Environment Using Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a deployment pipeline for a Rust-based machine learning model across multiple cloud providers (e.g., AWS, Azure, Google Cloud). Ensure that the model is deployed redundantly across clouds to enhance reliability and flexibility.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different multi-cloud deployment strategies, such as active-active and active-passive configurations, and analyze their impact on redundancy, failover, and cost.</p>
-#### **Exercise 21.5:** Security Measures for Deployed Machine Learning Models in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement security measures for a deployed Rust-based machine learning model, focusing on data encryption, secure API design, and access control. Ensure that the deployment complies with security best practices and regulatory requirements.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different security protocols, such as HTTPS, OAuth, and JWT, and analyze their effectiveness in protecting the model and data in production.</p>
-<p style="text-align: justify;">
-Embrace the difficulty of these exercises as an opportunity to refine your skills and prepare yourself for tackling complex deployment challenges using Rust.
-</p>
+---
+
+<section class="mt-5">
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 21.1: Implementing a CI/CD Pipeline for Machine Learning Models in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a Continuous Integration and Continuous Deployment (CI/CD) pipeline for a Rust-based machine learning model. Automate the processes of testing, validation, and deployment using tools like GitHub Actions, Jenkins, or GitLab CI.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different CI/CD workflows and analyze their impact on deployment speed, reliability, and rollback capabilities.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 21.2: Developing a Model Serving API in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a model serving API in Rust using a web framework like Actix or Rocket. Deploy the API to a production environment for real-time predictions, ensuring low-latency and high-throughput responses.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different API protocols, such as REST and gRPC, and analyze their impact on latency, throughput, and scalability.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 21.3: Implementing Monitoring and Logging for Deployed Models in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement monitoring and logging for a deployed Rust-based machine learning model using tools like Prometheus, Grafana, and Elasticsearch. Track key metrics such as latency, throughput, and error rates, and set up alerts for anomalies.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different monitoring strategies, such as monitoring model drift or performance degradation, and analyze their effectiveness in maintaining model reliability.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 21.4: Deploying a Machine Learning Model in a Multi-Cloud Environment Using Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a deployment pipeline for a Rust-based machine learning model across multiple cloud providers (e.g., AWS, Azure, Google Cloud). Ensure that the model is deployed redundantly across clouds to enhance reliability and flexibility.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different multi-cloud deployment strategies, such as active-active and active-passive configurations, and analyze their impact on redundancy, failover, and cost.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 21.5: Security Measures for Deployed Machine Learning Models in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement security measures for a deployed Rust-based machine learning model, focusing on data encryption, secure API design, and access control. Ensure that the deployment complies with security best practices and regulatory requirements.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different security protocols, such as HTTPS, OAuth, and JWT, and analyze their effectiveness in protecting the model and data in production.</p>
+        </div>
+    </div>
+    <p class="text-justify">
+        Embrace the difficulty of these exercises as an opportunity to refine your skills and prepare yourself for tackling complex deployment challenges using Rust.
+    </p>
+</section>
+
+---

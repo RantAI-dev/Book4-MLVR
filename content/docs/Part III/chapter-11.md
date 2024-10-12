@@ -1226,21 +1226,67 @@ Each prompt encourages you to think critically about the application of these me
 These exercises are designed to be challenging and in-depth, requiring you to apply both theoretical knowledge and practical skills in Rust.
 </p>
 
-#### **Exercise 11.1:** Implementing Statistical Methods for Anomaly Detection in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement statistical methods like z-score and Grubbs' test in Rust to identify anomalies in a dataset with normal distribution. Apply these methods to different datasets, such as financial transactions or sensor readings, and evaluate their effectiveness.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different thresholds for anomaly detection and analyze how the choice of threshold affects the balance between false positives and false negatives.</p>
-#### **Exercise 11.2:** Developing a Machine Learning-Based Anomaly Detection Model in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a machine learning model, such as Isolation Forest or One-Class SVM, for anomaly detection in Rust. Apply the model to a complex dataset, such as network traffic or healthcare records, and evaluate its performance against statistical methods.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Tune the hyperparameters of the machine learning model to optimize its performance, and compare the results with other anomaly detection techniques.</p>
-#### **Exercise 11.3:** Implementing Time-Series Anomaly Detection Using ARIMA in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement the ARIMA model in Rust for detecting anomalies in time-series data, such as stock prices or sensor readings. Apply the model to a real-world time-series dataset and identify any unusual patterns or outliers.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different orders of ARIMA models to capture the underlying temporal patterns and analyze the impact on anomaly detection accuracy.</p>
-#### **Exercise 11.4:** Building an Autoencoder for Anomaly Detection in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement an autoencoder neural network in Rust for anomaly detection, focusing on reconstructing normal data and identifying deviations as anomalies. Apply the autoencoder to an image or text dataset, and compare its performance with traditional methods like PCA.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different architectures and activation functions in the autoencoder, and analyze how these choices affect the model's ability to detect anomalies.</p>
-#### **Exercise 11.5:** Evaluating Anomaly Detection Models Using Precision, Recall, and F1 Score
-- <p style="text-align: justify;"><strong>Task</strong>: Implement evaluation metrics like precision, recall, and F1 score in Rust to assess the performance of different anomaly detection models. Apply these metrics to a real-world dataset with known anomalies and compare the results across various models.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Analyze the trade-offs between precision and recall, and determine the optimal balance for different applications of anomaly detection.</p>
-<p style="text-align: justify;">
-Embrace the difficulty of these exercises as an opportunity to refine your skills and prepare yourself for tackling real-world challenges in anomaly detection using Rust.
-</p>
+---
+
+<section class="mt-5">
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 11.1: Implementing Statistical Methods for Anomaly Detection in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement statistical methods like z-score and Grubbs' test in Rust to identify anomalies in a dataset with normal distribution. Apply these methods to different datasets, such as financial transactions or sensor readings, and evaluate their effectiveness.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different thresholds for anomaly detection and analyze how the choice of threshold affects the balance between false positives and false negatives.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 11.2: Developing a Machine Learning-Based Anomaly Detection Model in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a machine learning model, such as Isolation Forest or One-Class SVM, for anomaly detection in Rust. Apply the model to a complex dataset, such as network traffic or healthcare records, and evaluate its performance against statistical methods.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Tune the hyperparameters of the machine learning model to optimize its performance, and compare the results with other anomaly detection techniques.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 11.3: Implementing Time-Series Anomaly Detection Using ARIMA in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement the ARIMA model in Rust for detecting anomalies in time-series data, such as stock prices or sensor readings. Apply the model to a real-world time-series dataset and identify any unusual patterns or outliers.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different orders of ARIMA models to capture the underlying temporal patterns and analyze the impact on anomaly detection accuracy.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 11.4: Building an Autoencoder for Anomaly Detection in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement an autoencoder neural network in Rust for anomaly detection, focusing on reconstructing normal data and identifying deviations as anomalies. Apply the autoencoder to an image or text dataset, and compare its performance with traditional methods like PCA.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different architectures and activation functions in the autoencoder, and analyze how these choices affect the model's ability to detect anomalies.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 11.5: Evaluating Anomaly Detection Models Using Precision, Recall, and F1 Score
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement evaluation metrics like precision, recall, and F1 score in Rust to assess the performance of different anomaly detection models. Apply these metrics to a real-world dataset with known anomalies and compare the results across various models.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Analyze the trade-offs between precision and recall, and determine the optimal balance for different applications of anomaly detection.</p>
+        </div>
+    </div>
+    <p class="text-justify">
+        Embrace the difficulty of these exercises as an opportunity to refine your skills and prepare yourself for tackling real-world challenges in anomaly detection using Rust.
+    </p>
+</section>
+
+---

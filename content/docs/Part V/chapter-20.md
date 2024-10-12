@@ -716,21 +716,67 @@ Each prompt encourages you to think critically about the scalability challenges 
 These exercises are designed to be challenging and in-depth, requiring you to apply both theoretical knowledge and practical skills in Rust.
 </p>
 
-#### **Exercise 20.1:** Implementing Data Parallelism in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement data parallelism techniques in Rust, focusing on partitioning a large dataset and processing it in parallel using libraries like Rayon. Apply these techniques to a large-scale machine learning model and evaluate the performance improvements.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with different data partitioning strategies and analyze their impact on computational efficiency and model accuracy.</p>
-#### **Exercise 20.2:** Developing Stochastic Gradient Descent (SGD) for Large-Scale Learning in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement Stochastic Gradient Descent (SGD) and its variants, such as Mini-batch SGD and Asynchronous SGD, in Rust. Apply these algorithms to a large-scale dataset and tune the hyperparameters for optimal performance.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Compare the convergence speed and stability of different SGD variants, and analyze their effectiveness in handling large datasets.</p>
-#### **Exercise 20.3:** Deploying Large-Scale Machine Learning Models in Production Using Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a deployment pipeline for large-scale machine learning models in Rust, focusing on optimizing latency, scalability, and fault tolerance. Use tools like Docker and Kubernetes to deploy the model in a production environment.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with model optimization techniques like quantization and pruning to reduce model size and improve inference speed in production.</p>
-#### **Exercise 20.4:** Dimensionality Reduction Techniques for High-Dimensional Data in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement dimensionality reduction techniques like PCA and t-SNE in Rust, applying them to high-dimensional datasets such as image or text data. Evaluate the impact of dimensionality reduction on model performance and computational efficiency.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Compare the effectiveness of different dimensionality reduction techniques in preserving important data features and improving model accuracy.</p>
-#### **Exercise 20.5:** Developing Distributed Machine Learning Systems in Rust
-- <p style="text-align: justify;"><strong>Task</strong>: Implement a distributed machine learning system in Rust, focusing on scalability, data synchronization, and load balancing. Apply the system to a large-scale dataset and evaluate its performance across multiple nodes.</p>
-- <p style="text-align: justify;"><strong>Challenges</strong>: Experiment with both synchronous and asynchronous parallelism in the distributed system, and analyze their impact on model convergence and communication overhead.</p>
-<p style="text-align: justify;">
-By completing these tasks, you will gain hands-on experience with Large-Scale Machine Learning, deepening your understanding of its implementation and application in machine learning.
-</p>
+---
+
+<section class="mt-5">
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 20.1: Implementing Data Parallelism in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement data parallelism techniques in Rust, focusing on partitioning a large dataset and processing it in parallel using libraries like Rayon. Apply these techniques to a large-scale machine learning model and evaluate the performance improvements.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with different data partitioning strategies and analyze their impact on computational efficiency and model accuracy.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 20.2: Developing Stochastic Gradient Descent (SGD) for Large-Scale Learning in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement Stochastic Gradient Descent (SGD) and its variants, such as Mini-batch SGD and Asynchronous SGD, in Rust. Apply these algorithms to a large-scale dataset and tune the hyperparameters for optimal performance.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Compare the convergence speed and stability of different SGD variants, and analyze their effectiveness in handling large datasets.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 20.3: Deploying Large-Scale Machine Learning Models in Production Using Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a deployment pipeline for large-scale machine learning models in Rust, focusing on optimizing latency, scalability, and fault tolerance. Use tools like Docker and Kubernetes to deploy the model in a production environment.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with model optimization techniques like quantization and pruning to reduce model size and improve inference speed in production.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 20.4: Dimensionality Reduction Techniques for High-Dimensional Data in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement dimensionality reduction techniques like PCA and t-SNE in Rust, applying them to high-dimensional datasets such as image or text data. Evaluate the impact of dimensionality reduction on model performance and computational efficiency.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Compare the effectiveness of different dimensionality reduction techniques in preserving important data features and improving model accuracy.</p>
+        </div>
+    </div>
+    <div class="card mb-4" style="background-color: #333; color: #ddd;">
+        <div class="card-header bg-primary text-white">
+            Exercise 20.5: Developing Distributed Machine Learning Systems in Rust
+        </div>
+        <div class="card-body">
+            <p><strong>Task:</strong></p>
+            <p class="text-justify">Implement a distributed machine learning system in Rust, focusing on scalability, data synchronization, and load balancing. Apply the system to a large-scale dataset and evaluate its performance across multiple nodes.</p>
+            <p><strong>Challenges:</strong></p>
+            <p class="text-justify">Experiment with both synchronous and asynchronous parallelism in the distributed system, and analyze their impact on model convergence and communication overhead.</p>
+        </div>
+    </div>
+    <p class="text-justify">
+        By completing these tasks, you will gain hands-on experience with Large-Scale Machine Learning, deepening your understanding of its implementation and application in machine learning.
+    </p>
+</section>
+
+---
