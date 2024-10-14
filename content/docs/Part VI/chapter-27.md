@@ -24,7 +24,7 @@ As we venture into the future of machine learning, it is essential to examine th
 
 <div class="row justify-content-center">
     <div class="rounded p-4 position-relative overflow-hidden border-1 text-center" style="width: 100%">
-        {{< figure src="/images/YTqPzzGfIpBMnHMaL23o-tz1XvVfuImXoglVO7vZr-v1.png" >}}
+        {{< figure src="/images/mermaid-diagram-2024-10-14-144134.svg" >}}
         <p><span class="fw-bold ">Figure 1:</span> Potential Rust’s roles in evolution of Machine Learning.</p>
     </div>
 </div>
