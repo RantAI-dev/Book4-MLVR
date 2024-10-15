@@ -46,8 +46,8 @@ Jakarta, August 17th, 2024
 
 &nbsp;
 
-<strong>Prof. Alhadi Boestamam, Ph.D.</strong>
+<strong>Prof. Alhadi Bustamam, Ph.D.</strong>
 
-<strong>Data Science Center - University of Indonesia</strong>
+<strong>Data Science Center - Universitas Indonesia</strong>
 
 </center>
