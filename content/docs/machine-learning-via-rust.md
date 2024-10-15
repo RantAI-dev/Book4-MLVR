@@ -106,7 +106,7 @@ RantAI is a dynamic Indonesian tech startup dedicated to advancing technology th
 
 <center>
 
-## 👥 DSAR Authors
+## 👥 MLVR Authors
 
 </center>
 
