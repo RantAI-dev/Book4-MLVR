@@ -22,6 +22,66 @@ toc: true
 </p>
 {{% /alert %}}
 
+<div class="row justify-content-center my-4">
+    <div class="col-md-8 col-12">
+        <div class="card p-4 text-center support-card">
+            <h4 class="mb-3" style="color: #00A3C4;">SUPPORT US ❤️</h4>
+            <p class="card-text">
+                Support our mission by purchasing the companion book at your preferred platform.
+            </p>
+            <div class="d-flex justify-content-center mb-3 flex-wrap">
+                <a href="https://www.amazon.com/dp/B0DK2NH9CZ" class="btn btn-lg btn-outline-support m-2 support-btn">
+                    <img src="../../images/kindle.png" alt="Amazon Logo" class="support-logo-image">
+                    <span class="support-btn-text">Buy on Amazon</span>
+                </a>
+                <a href="https://play.google.com/store/books/details?id=NnwpEQAAQBAJ" class="btn btn-lg btn-outline-support m-2 support-btn">
+                    <img src="../../images/GBooks.png" alt="Google Books Logo" class="support-logo-image">
+                    <span class="support-btn-text">Buy on Google Books</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .btn-outline-support {
+        color: #00A3C4;
+        border: 2px solid #00A3C4;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 25px; /* Increased padding for a more prominent button */
+        width: 200px; /* Increased width for better visibility */
+        text-align: center;
+        transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+    }
+    .btn-outline-support:hover {
+        background-color: #00A3C4;
+        color: white;
+        border-color: #00A3C4;
+    }
+    .support-logo-image {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 16px; /* Increased space between the logo and the button text */
+    }
+    .support-btn {
+        width: 300px; /* Increased width for both buttons */
+    }
+    .support-btn-text {
+        font-weight: bold;
+        font-size: 1.1rem; /* Slightly larger text for better readability */
+    }
+    .support-card {
+        transition: box-shadow 0.3s ease-in-out;
+    }
+    .support-card:hover {
+        box-shadow: 0 0 20px #00A3C4; /* Glowing border effect when hovered */
+    }
+</style>
+
+
 <center>
 
 ## 🚀 About RantAI
