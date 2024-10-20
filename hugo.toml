@@ -176,5 +176,5 @@ title = 'Machine Learning via Rust'
 [services]
   [services.disqus]
     shortname = 'rantai'
-# [services.googleAnalytics]
-#   ID = 'G-91ZSE190VW'
+  [services.googleAnalytics]
+    ID = 'G-SRMN1LMB25'
