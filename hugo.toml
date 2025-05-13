@@ -129,6 +129,13 @@ title = 'Machine Learning via Rust'
         # plausibleAPI    = "/docs/s" # optional - (or set via env variable HUGO_PARAM_ANALYTICS_plausibleAPI)
         # plausibleDomain = ""      # (or set via env variable HUGO_PARAM_ANALYTICS_plausibleDomain)
 
+    [params.comentario]
+      enable = true  # Master switch to enable/disable Comentario globally
+      hostURL = "https://comments.rantai.dev" # Your Comentario instance URL
+      # Optional settings (refer to Comentario documentation for all options)
+      # theme = "dark" # if you want to force a theme, e.g., "light", "dark", "auto"
+      # cssOverride = "/css/custom-comentario.css" # Path to your custom CSS for Comentario
+      # defaultName = "Anonymous Panda" # Default name for anonymous commenters
     # [params.feedback]
     #     enabled = true
     #     emoticonTpl = true
@@ -174,7 +181,7 @@ title = 'Machine Learning via Rust'
 #     weight = 30
 
 [services]
-  [services.disqus]
-    shortname = 'rantai'
+  # [services.disqus]
+  #   shortname = 'rantai'
   [services.googleAnalytics]
     ID = 'G-SRMN1LMB25'
